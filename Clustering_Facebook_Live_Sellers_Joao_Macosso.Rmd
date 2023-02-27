@@ -1,0 +1,251 @@
+---
+title: "Clustering Analysis on usage and engagement patterns for Facebook Live sellers in Thailand."
+author: "João Cláudio Macosso"
+date: "2023-02-18"
+bibliography: "Data/reference.bib"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.width=12, fig.height=6)
+memory.size(max = TRUE)
+```
+
+# Load Libraries
+
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(factoextra)
+library(flexclust)
+library(fpc)
+library(clustertend)
+library(cluster)
+library(ClusterR)
+library(ggplot2)
+library(DALEX)
+library(ggpubr)
+library(ClusterR)
+library(fastDummies)
+library(qdapTools)
+library(gridExtra)
+library(caret)
+library(clValid)
+library(kableExtra)
+library(corrplot)
+```
+
+# Dataset
+This dataset has been obtained from UCI ML Repository. [https://archive.ics.uci.edu/ml/datasets/Facebook+Live+Sellers+in+Thailand](https://archive.ics.uci.edu/ml/datasets/Facebook+Live+Sellers+in+Thailand) 
+
+The dataset consist of posts extracted from the Facebook pages of 10 Thai fashion and cosmetics retail sellers from March 2012, to June 2018. For each Facebook post, the dataset records the resulting engagement metrics comprising shares, comments, and emoji reactions within which traditional “likes”are distinguished from recently introduced emoji reactions, that are “love”, “wow”, “haha”, “sad” and “angry”, [@Nassim].
+
+# EDA
+```{r}
+fb <-  read_csv("Data/Live_20210128.csv")
+
+```
+
+```{r}
+fb
+```
+
+```{r}
+summary(fb)
+```
+We have Column1, Column2, Column3, Column4 that have only missing values, so will drop the, also we can Convert status columnn which as character to dummy variables
+```{r}
+fb <- fb %>% fastDummies::dummy_cols("status_type", remove_first_dummy = F) %>%
+  dplyr::select(-c(status_type, status_id, Column1:Column4)) %>% # Drop unnecessary columns
+  drop_na()
+
+```
+
+
+We see that the column status_published is datetime so let's convert it to time since posted to reflect the duration the the post has existed.
+
+```{r}
+fb <- fb %>%
+  mutate(status_published = as.POSIXct(status_published, 
+                                       format = "%m/%d/%Y %H:%M"),
+         status_published = as.numeric(Sys.time() - status_published)) %>% # Convert status Published date to n days since published
+  drop_na()
+
+
+
+fb
+
+```
+
+### Correlation Matrix
+
+```{r}
+cor_mat <- cor(fb)
+corrplot(cor_mat, type = "lower", order = "hclust", 
+         tl.col = "black", tl.cex = 0.5)
+
+```
+
+# Clustering Analysis
+
+
+Since our data set is fairly large, and rendering the full dataset might take large amount of time, I will use only the 10% of the dataset which corresponds to approximately 700 observations.
+Also, Scaling the data is often recommended before performing clustering analysis to ensure that all variables are equally weighted in the analysis, reduce the impact of outliers, make the results more interpretable, and meet algorithm requirements. Clustering is a distance-based method that relies on measuring the distances between points, and if the variables have different scales, clustering results may be biased towards variables with larger values. Scaling the data can make the contribution of each variable more comparable, which can help ensure that the clustering results are accurate, robust, and interpretable.
+```{r}
+set.seed(24)
+selection <- createDataPartition(fb$num_reactions, p=0.10, list=FALSE)
+fb_scaled<- center_scale(fb[selection,])
+colnames(fb_scaled) <- colnames(fb)
+
+```
+
+
+## Clusterability
+```{r echo = T}
+
+get_clust_tendency(fb_scaled, 2, graph = T, gradient=list(low="red", high="green"))
+
+
+```
+The Hopkins statistic is a measure of cluster tendency that assesses the clustering tendency of a dataset. It compares the distribution of randomly generated points with that of the actual data, and returns a value between 0 and 1. A value closer to 0 indicates that the data is uniformly distributed and therefore not suitable for clustering, while a value closer to 1 suggests that the data is highly clustered and well-suited for clustering.
+
+In this case, the Hopkins statistic has a value of 0.99, which is closer to 1 than to 0. This indicates that the dataset has a high tendency towards clustering and may be suitable for cluster analysis.
+
+
+## The optimal number of clusters
+In the next step it is necessary to obtain the optimal number of clusters for each of partitional clustering method. We will use 3 methods, Kmeans, PAM, and CLARA which is intended for large dataset. The optimal number of clusters will be chosen primarily based on silhouette statistic.
+
+### Silhouette statistic
+
+
+```{r}
+n_k <- 15 # Number of Clusters to consider
+
+```
+
+```{r}
+f1 <- fviz_nbclust(fb_scaled, FUNcluster = kmeans, method = "silhouette", k.max = n_k) + 
+  ggtitle("Optimal number of clusters \n K-means")
+f2 <- fviz_nbclust(fb_scaled, FUNcluster = cluster::pam, method = "silhouette", k.max = n_k) + 
+  ggtitle("Optimal number of clusters \n PAM")
+
+f3 <- fviz_nbclust(fb_scaled, FUNcluster = cluster::clara, method = "silhouette", k.max = n_k) + 
+  ggtitle("Optimal number of clusters \n CLARA")
+
+grid.arrange(f1, f2, f3, ncol=3)
+```
+The results show that for K-means and PAM dividing the data into 9 clusters is the most appropriate, while 12 in Clara.
+
+### Total within-clusters sum of square, Elbow Method
+To confirm the results, it is always good to look at an alternative method. Therefore, I check the stability of the obtained above results by using the WSS statistics.
+
+```{r}
+f1 <- fviz_nbclust(fb_scaled, FUNcluster = kmeans, method = "wss", k.max = n_k) + 
+  ggtitle("Optimal number of clusters \n K-means")
+f2 <- fviz_nbclust(fb_scaled, FUNcluster = cluster::pam, method = "wss", k.max = n_k) + 
+  ggtitle("Optimal number of clusters \n PAM")
+f3 <- fviz_nbclust(fb_scaled, FUNcluster = cluster::clara, method = "wss", k.max = n_k) + 
+  ggtitle("Optimal number of clusters \n CLARA")
+
+grid.arrange(f1, f2, f3, ncol=3)
+```
+For KMeans it would be worth trying with 2 Clusters as well.
+
+## K-means
+
+
+### K-means with 9 clusters
+```{r}
+
+km9 <- eclust(fb_scaled, k=9 , FUNcluster="kmeans", hc_metric="euclidean", graph=F)
+
+c9 <- fviz_cluster(km9, data=fb_scaled, elipse.type="convex", geom=c("point")) + ggtitle("K-means with 9 clusters")
+s9 <- fviz_silhouette(km9)
+grid.arrange(c9, s9, ncol=2)
+```
+
+### K-means with 7 clusters
+```{r}
+
+km7 <- eclust(fb_scaled, k=7 , FUNcluster="kmeans", hc_metric="euclidean", graph=F)
+
+c7 <- fviz_cluster(km7, data=fb_scaled, elipse.type="convex", geom=c("point")) + ggtitle("K-means with 7 clusters")
+s7 <- fviz_silhouette(km7)
+grid.arrange(c7, s7, ncol=2)
+```
+
+
+
+## PAM Clustering
+### PAM with 9 clusters
+
+```{r}
+
+pam9 <- eclust(fb_scaled, k=9 , FUNcluster="pam", hc_metric="euclidean", graph=F)
+
+cp9 <- fviz_cluster(pam9, data=fb_scaled, elipse.type="convex", geom=c("point")) + ggtitle("PAM with 9 clusters")
+sp9 <- fviz_silhouette(pam9)
+grid.arrange(cp9, sp9, ncol=2)
+```
+
+### PAM with 7 clusters
+
+```{r}
+
+pam7 <- eclust(fb_scaled, k=7 , FUNcluster="pam", hc_metric="euclidean", graph=F)
+
+cp7 <- fviz_cluster(pam7, data=fb_scaled, elipse.type="convex", geom=c("point")) + ggtitle("PAM with 7 clusters")
+sp7 <- fviz_silhouette(pam7)
+grid.arrange(cp7, sp7, ncol=2)
+```
+
+## CARA Clustering
+### CARA with 12 clusters
+
+```{r}
+
+cL12 <- eclust(fb_scaled, k=12 , FUNcluster="pam", hc_metric="euclidean", graph=F)
+
+cCl12 <- fviz_cluster(cL12, data=fb_scaled, elipse.type="convex", geom=c("point")) + ggtitle("Clara with 12 clusters")
+sCl12 <- fviz_silhouette(cL12)
+grid.arrange(cCl12, sCl12, ncol=2)
+```
+
+
+### CARA with 8 clusters
+
+```{r}
+
+cL8 <- eclust(fb_scaled, k=8 , FUNcluster="pam", hc_metric="euclidean", graph=F)
+
+cCl8 <- fviz_cluster(cL8, data=fb_scaled, elipse.type="convex", geom=c("point")) + ggtitle("Clara with 8 clusters")
+sCl8 <- fviz_silhouette(cL8)
+grid.arrange(cCl8, sCl8, ncol=2)
+
+```
+
+
+## Stability comparison
+```{r}
+clmethods <- c("kmeans","pam", "clara")
+st <- clValid(fb_scaled, nClust=c(7:12), 
+              clMethods=clmethods, maxitems = 1000,
+              validation="stability", method="complete")
+
+optimalScores(st)
+```
+APN: Average Path Length to Nearest Neighbors. This is a measure of the average distance between a point and its nearest neighbors in a clustering analysis. APN can be used to assess the compactness of clusters, with smaller values indicating more compact clusters.
+
+AD: Average Distance. This is a measure of the average distance between points within a cluster in a clustering analysis. AD can be used to assess the homogeneity of clusters, with smaller values indicating more homogeneous clusters.
+
+ADM: Average Distance to Medoid. This is a measure of the average distance between points and the medoid (i.e., the most representative point) of their cluster in a clustering analysis. ADM can be used as an alternative to AD for assessing cluster homogeneity.
+
+FOM: Figure of Merit. This is a measure of the separation between clusters in a clustering analysis, calculated as the ratio of the between-cluster sum of squares to the total sum of squares. FOM can be used to assess the quality of cluster separation, with larger values indicating better separation.
+
+PAM algorithm was assessed to be the most consistent one of methods the used for this data based on mentioned four measures. There is no consensus on the number of clusters, however, 7 and 12 seem the most attractive choices.
+
+# References

@@ -1,0 +1,190 @@
+---
+title: "PCA Analysis of The World Happiness Report 2017 Data"
+author: "João Cláudio Macosso"
+date: "2023-02-25"
+output:
+  html_document:
+    toc: true
+    toc_float: True
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.width=10, fig.height=6, message = F, warning = F)
+```
+
+```{r klippy, echo=FALSE, include=TRUE}
+klippy::klippy()
+```
+# Introduction
+Principal Component Analysis (PCA) is a widely used data analysis technique that can be applied to a range of fields and applications. 
+In this report I will conduct PCA to perform dimension reduction of the World Happiness Report 2017, an annual survey that ranks countries according to their level of happiness and well-being. The 2017 edition of the report contains a wealth of data on a range of factors that contribute to happiness, including economic, social, and political factors. By applying PCA to this dataset, it is possible to identify the key factors that contribute to happiness and well-being across different countries and regions. 
+# Load Libraries
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(factoextra)
+library(flexclust)
+library(fpc)
+library(clustertend)
+library(cluster)
+library(ClusterR)
+library(ggplot2)
+library(DALEX)
+library(ggpubr)
+library(ClusterR)
+library(fastDummies)
+library(qdapTools)
+library(gridExtra)
+library(corrplot)
+library(psych)
+library(reshape2)
+library(scales)
+```
+
+
+# EDA
+```{r}
+Happiness_Report <- read_csv("Data/World Happiness Report/2017.csv")
+Happiness_Report
+```
+
+We can delete the columns("Country", "Happiness.Rank", "Whisker.high", "Whisker.low")
+
+```{r}
+Happiness <- Happiness_Report %>% 
+  select(-c(Country, Happiness.Rank, Whisker.high, Whisker.low))
+Happiness
+```
+
+## Scale the Data
+Scaling the data is an essential preprocessing step in PCA. The reason is that PCA is a variance-maximizing exercise, which means that it will identify the directions of maximum variance in the data. When data is not scaled, variables with higher variances will dominate the analysis, regardless of their importance in explaining the underlying structure of the data. By scaling the data, we ensure that each variable has equal importance in the analysis, which is crucial for correctly identifying the directions of maximum variance. Scaling also helps to avoid numerical problems that can arise when working with variables that have different scales or units of measurement. Overall, scaling is an important step in PCA that allows us to extract meaningful information from the data and make reliable inferences about the underlying structure of the variables.
+```{r}
+Happiness_scaled <- center_scale(Happiness)
+colnames(Happiness_scaled) <- colnames(Happiness)
+head(Happiness_scaled)
+
+```
+## Distribution of the variables
+```{r}
+happy_long <- melt(data.frame(Happiness_scaled), id.vars = NULL)
+
+ggplot(data = happy_long, aes(x = value, fill = variable)) + 
+  geom_histogram() +  
+  theme(plot.title = element_text(hjust = 0.5, size = 15)) +
+  facet_wrap(.~ variable, scales = "free", ncol = 3)
+```
+
+## Correlation Matrix
+
+```{r}
+cor_mat <- cor(Happiness)
+corrplot(cor_mat, type = "lower", order = "hclust", 
+         tl.col = "black", tl.cex = 0.5)
+
+```
+
+
+
+
+# Principal Component Analysis (PCA)
+Principal Component Analysis (PCA) is a method used to decrease the complexity of data by reducing its dimensionality. This allows for easier interpretation while minimizing the amount of information lost. PCA achieves this by generating new variables that are not correlated with each other, while also maximizing the amount of variance present in the data.
+
+```{r}
+happ_pca <- prcomp(Happiness, center = TRUE, scale = TRUE)
+summary(happ_pca)
+```
+
+## Choosing number of components
+
+There are 3 most common methods used to select the number of components: The Kaiser Rule, Cree plot, Proportion of Variance explained
+
+### The Kaiser Rule
+The Kaiser rule is a commonly used method for determining the number of components to retain in PCA. It focuses on the eigenvalues of each component, which represent the amount of variance explained by that component. The Kaiser rule suggests that only components with eigenvalues greater than 1 should be retained, as eigenvalues less than 1 indicate that the component explains less variance than a single variable. This approach is based on the idea that components with eigenvalues greater than 1 are more meaningful and contain more information than those with eigenvalues less than 1.
+```{r}
+eig.val <- get_eigenvalue(happ_pca)
+round(eig.val,3)
+```
+Based on the table above we can see that the components 1, 2, and 3 have eigen values higher than 1, thus only those components should be chosen.
+
+### Scree plot
+A scree plot is a graphical tool used in PCA that displays the eigenvalues of each principal component against its corresponding component number. The scree plot helps to identify the number of significant principal components that should be retained for further analysis. The plot typically shows a steep drop in eigenvalues for the initial principal components,
+```{r}
+fviz_eig(happ_pca, choice='eigenvalue')
+```
+This approach, as well as the Kaiser rule, indicates that the right number of components is 3.
+
+### Proportion of variance explained
+
+The number of components can be determined based on the amount of variance explained by each component. This method suggests that chosen components should explain over 2/3 of the variance.
+
+```{r}
+fviz_eig(happ_pca, choice='variance', addlabels = T)+
+  scale_y_continuous(breaks = seq(0, 100, by = 10), 
+                     labels = paste0(format(seq(0, 100, by = 10)),"%")) +
+  labs(title = "Percentage of Variance Explained") +
+  theme_bw()
+```
+
+The plot above shows that the component 1 explains 47.8% of Variance, the component 17.4% of variance and component 13.5% of variance.
+
+```{r}
+pca_df <- data.frame(eig.val)
+pca_df$Component <- rownames(pca_df)
+
+pca_df %>%
+  mutate(Component = substr(Component, 5,6),
+         Component = as.numeric(Component)) %>%
+ggplot(aes(x = Component, 
+           y = cumulative.variance.percent)) +
+  geom_line(col = "red") +
+  geom_bar(stat = "identity", fill = "steelblue", width = .9, alpha = 0.9)+
+  scale_y_continuous(breaks = seq(0, 100, by = 10), 
+                     labels = paste0(format(seq(0, 100, by = 10)),"%")) +
+  scale_x_continuous(n.breaks = 8) +
+  geom_text(aes(label = paste(round(cumulative.variance.percent,2),"%")),
+            size = 5) +
+  expand_limits(y = 0)+
+  labs(title = "Cumulative Variance explained") +
+  theme_bw()
+  
+```
+With the cummulative variance above, we can see that the components 1,2,3 have a cumulative variance of 78.8% which is already well above 2/3 of total variance. limitting our analysis to just these 3 components would help avoiding overfitting.
+
+## Components analysis
+The “cloud of points” graph shows individual observations quality of representation.
+
+```{r}
+fviz_pca_ind(happ_pca, col.ind="cos2", geom = "point", gradient.cols = c("green", "yellow", "red" ))
+```
+
+
+```{r}
+fviz_pca_var(happ_pca, col.var = "red")
+```
+
+The above plot depicts both the interrelationships between variables and the "quality" of all factors. Variables that exhibit positive correlation are situated closely together, whereas those with negative correlation are situated at opposite sides of the plot. The "quality" of each variable is indicated by its distance from the center of the plot.
+
+```{r}
+PC1 <- fviz_contrib(happ_pca, choice = "var", axes = 1)
+PC2 <- fviz_contrib(happ_pca, choice = "var", axes = 2)
+PC3 <- fviz_contrib(happ_pca, choice = "var", axes = 3)
+grid.arrange(PC1, PC2, PC3, ncol = 3)
+
+```
+
+
+The plots above, we have the variables selected in each component.
+
+
+Component 1 contains: Happiness.Score, Economy..GDP.per.Capita, Health..Life.Expectancy, Family.
+
+
+
+Component 2 contains: Generosity, Trust..Government.Corruption., Freedom, Dystopia.Residual.
+
+Component 3 contains: Dystopia.Residual
+
+
+# Conclusion
+Dimension reduction involves reducing the number of dimensions in a dataset with the goal of preserving as much information as possible while reducing the number of features. Recent research indicates that using just three variables out of eight can explain over 78.8% of the variance, retaining almost three-quarters of the information contained in the original dataset. Dimension reduction techniques are particularly useful for the analysis and storage of large datasets, and can help to simplify and streamline complex data structures while retaining key information.

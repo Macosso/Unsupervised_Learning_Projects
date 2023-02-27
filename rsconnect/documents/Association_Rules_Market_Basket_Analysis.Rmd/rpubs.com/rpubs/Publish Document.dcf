@@ -1,0 +1,11 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/1008479/3c2dbba55dc4402087bcea8d60ddecf4
+bundleId: https://api.rpubs.com/api/v1/document/1008479/3c2dbba55dc4402087bcea8d60ddecf4
+url: http://rpubs.com/Macosso/1008479
+when: 1677502047.61776
+lastSyncTime: 1677502047.61778

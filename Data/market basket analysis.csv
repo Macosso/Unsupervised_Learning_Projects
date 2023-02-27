@@ -1,0 +1,1864 @@
+"","itemset","item1","item2","item3","item4","item5","item6","item7","item8","item9","item10","item11","item12"
+"1",1,"baking powder","coffee","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"2",2,"ice cream","abrasive cleaner","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"3",3,"butter","baking powder","coffee","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"4",4,"frozen vegetables","abrasive cleaner","ice cream","butter","coffee",NA,NA,NA,NA,NA,NA,NA
+"5",5,"baking powder","ice cream","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"6",6,"ice cream","frozen vegetables","coffee","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"7",7,"honey","fish","abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA
+"8",8,"butter","frozen meals","fish","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"9",9,"coffee","honey","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"10",10,"honey","frozen meals","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"11",11,"abrasive cleaner","frozen vegetables","baking powder","butter","domestic eggs",NA,NA,NA,NA,NA,NA,NA
+"12",12,"frozen meals","domestic eggs","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"13",13,"ice cream","cake bar","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"14",14,"baking powder","domestic eggs","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"15",15,"coffee","butter","baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"16",16,"frozen vegetables","frozen meals","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"17",17,"butter","fish","frozen meals","baking powder","ice cream",NA,NA,NA,NA,NA,NA,NA
+"18",18,"butter","baking powder","frozen meals","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"19",19,"baking powder","domestic eggs","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"20",20,"fish","frozen vegetables","frozen meals","baking powder","butter",NA,NA,NA,NA,NA,NA,NA
+"21",21,"butter","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"22",22,"butter","coffee","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"23",23,"butter","coffee","domestic eggs","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"24",24,"fish","frozen meals","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"25",25,"baking powder","cake bar","butter","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"26",26,"domestic eggs","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"27",27,"frozen meals","fish","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"28",28,"baking powder","frozen meals","domestic eggs","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"29",29,"fish","frozen meals","domestic eggs","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"30",30,"butter","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"31",31,"frozen meals","frozen vegetables","baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"32",32,"coffee","baking powder","butter","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"33",33,"fish","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"34",34,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"35",35,"frozen vegetables","abrasive cleaner","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"36",36,"fish","coffee","frozen meals","ice cream","honey",NA,NA,NA,NA,NA,NA,NA
+"37",37,"coffee","butter","baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"38",38,"honey","frozen meals","ice cream","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"39",39,"frozen vegetables","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"40",40,"honey","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"41",41,"honey","domestic eggs","frozen meals","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"42",42,"frozen vegetables","domestic eggs","fish","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"43",43,"coffee","domestic eggs","butter","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"44",44,"butter","coffee","baking powder","ice cream","fish","frozen meals",NA,NA,NA,NA,NA,NA
+"45",45,"baking powder","butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"46",46,"baking powder","domestic eggs","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"47",47,"coffee","ice cream","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"48",48,"frozen meals","baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"49",49,"butter","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"50",50,"butter","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"51",51,"frozen meals","cake bar","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"52",52,"honey","abrasive cleaner","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"53",53,"baking powder","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"54",54,"baking powder","fish","domestic eggs","cake bar","butter",NA,NA,NA,NA,NA,NA,NA
+"55",55,"ice cream","baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"56",56,"frozen vegetables","ice cream","frozen meals","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"57",57,"butter","frozen meals","coffee",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"58",58,"honey","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"59",59,"ice cream","fish","domestic eggs","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"60",60,"butter","baking powder","cake bar","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"61",61,"coffee","baking powder","fish","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"62",62,"abrasive cleaner","honey","frozen vegetables","fish","ice cream",NA,NA,NA,NA,NA,NA,NA
+"63",63,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"64",64,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"65",65,"abrasive cleaner","coffee","fish","butter","ice cream","baking powder","frozen meals",NA,NA,NA,NA,NA
+"66",66,"grapes","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"67",67,"butter","coffee","baking powder","fish","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"68",68,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"69",69,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"70",70,"baking powder","butter","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"71",71,"butter","grapes","baking powder","cake bar","fish",NA,NA,NA,NA,NA,NA,NA
+"72",72,"baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"73",73,"butter","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"74",74,"ice cream","grapes","domestic eggs","honey","fish",NA,NA,NA,NA,NA,NA,NA
+"75",75,"butter","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"76",76,"grapes","ice cream","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"77",77,"abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"78",78,"frozen vegetables","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"79",79,"frozen meals","butter","frozen vegetables","abrasive cleaner","ice cream",NA,NA,NA,NA,NA,NA,NA
+"80",80,"fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"81",81,"baking powder","abrasive cleaner","grapes","cake bar","butter","coffee","frozen meals",NA,NA,NA,NA,NA
+"82",82,"butter","abrasive cleaner","coffee","domestic eggs","baking powder","frozen meals",NA,NA,NA,NA,NA,NA
+"83",83,"cake bar","butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"84",84,"baking powder","coffee","butter","abrasive cleaner","fish","frozen meals",NA,NA,NA,NA,NA,NA
+"85",85,"frozen meals","baking powder","coffee","butter","ice cream",NA,NA,NA,NA,NA,NA,NA
+"86",86,"domestic eggs","grapes","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"87",87,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"88",88,"frozen meals","cake bar","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"89",89,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"90",90,"ice cream","abrasive cleaner","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"91",91,"butter","coffee","frozen vegetables","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"92",92,"grapes","honey","fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"93",93,"frozen meals","fish","frozen vegetables","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"94",94,"grapes","domestic eggs","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"95",95,"baking powder","grapes","fish","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"96",96,"abrasive cleaner","butter","frozen vegetables","grapes","domestic eggs",NA,NA,NA,NA,NA,NA,NA
+"97",97,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"98",98,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"99",99,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"100",100,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"101",101,"ice cream","grapes","abrasive cleaner","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"102",102,"frozen vegetables","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"103",103,"butter","coffee","domestic eggs","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"104",104,"frozen vegetables","domestic eggs","abrasive cleaner","honey","fish",NA,NA,NA,NA,NA,NA,NA
+"105",105,"coffee","ice cream","butter","frozen vegetables","domestic eggs","fish","frozen meals",NA,NA,NA,NA,NA
+"106",106,"coffee","butter","baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"107",107,"cake bar","ice cream","abrasive cleaner","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"108",108,"domestic eggs","cake bar","baking powder","butter","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"109",109,"coffee","abrasive cleaner","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"110",110,"butter","ice cream","grapes","baking powder","coffee","frozen meals",NA,NA,NA,NA,NA,NA
+"111",111,"butter","frozen meals","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"112",112,"abrasive cleaner","fish","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"113",113,"cake bar","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"114",114,"frozen meals","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"115",115,"frozen vegetables","butter","fish","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"116",116,"fish","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"117",117,"coffee","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"118",118,"fish","butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"119",119,"frozen meals","fish","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"120",120,"grapes","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"121",121,"baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"122",122,"cake bar","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"123",123,"butter","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"124",124,"baking powder","butter","abrasive cleaner","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"125",125,"fish","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"126",126,"grapes","butter","frozen vegetables","fish",NA,NA,NA,NA,NA,NA,NA,NA
+"127",127,"baking powder","grapes","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"128",128,"frozen vegetables","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"129",129,"frozen meals","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"130",130,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"131",131,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"132",132,"butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"133",133,"grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"134",134,"grapes","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"135",135,"frozen vegetables","frozen meals","cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"136",136,"abrasive cleaner","frozen vegetables","butter","baking powder","ice cream",NA,NA,NA,NA,NA,NA,NA
+"137",137,"grapes","baking powder","butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"138",138,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"139",139,"cake bar","frozen meals","ice cream","baking powder","coffee",NA,NA,NA,NA,NA,NA,NA
+"140",140,"baking powder","coffee","ice cream","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"141",141,"grapes","baking powder","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"142",142,"butter","frozen meals","grapes","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA
+"143",143,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"144",144,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"145",145,"coffee","grapes","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"146",146,"cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"147",147,"cake bar","butter","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"148",148,"grapes","butter","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"149",149,"ice cream","domestic eggs","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"150",150,"coffee","butter","baking powder","honey","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"151",151,"fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"152",152,"grapes","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"153",153,"honey","grapes","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"154",154,"honey","butter","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"155",155,"coffee","honey","butter","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"156",156,"fish","abrasive cleaner","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"157",157,"cake bar","grapes","frozen vegetables","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"158",158,"cake bar","butter","domestic eggs","grapes","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"159",159,"frozen meals","baking powder","frozen vegetables","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"160",160,"grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"161",161,"butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"162",162,"honey","grapes","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"163",163,"cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"164",164,"fish","butter","domestic eggs","cake bar","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"165",165,"baking powder","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"166",166,"butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"167",167,"fish","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"168",168,"abrasive cleaner","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"169",169,"baking powder","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"170",170,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"171",171,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"172",172,"baking powder","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"173",173,"abrasive cleaner","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"174",174,"coffee","cake bar","domestic eggs","frozen meals","baking powder",NA,NA,NA,NA,NA,NA,NA
+"175",175,"domestic eggs","ice cream","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"176",176,"abrasive cleaner","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"177",177,"coffee","fish","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"178",178,"baking powder","domestic eggs","frozen meals","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"179",179,"butter","frozen meals","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"180",180,"cake bar","baking powder","frozen meals","grapes","fish",NA,NA,NA,NA,NA,NA,NA
+"181",181,"frozen meals","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"182",182,"frozen vegetables","abrasive cleaner","cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"183",183,"coffee","frozen vegetables","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"184",184,"ice cream","frozen meals","frozen vegetables","domestic eggs","grapes",NA,NA,NA,NA,NA,NA,NA
+"185",185,"coffee","frozen meals","honey","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"186",186,"grapes","coffee","fish","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"187",187,"frozen vegetables","grapes","domestic eggs","fish","cake bar",NA,NA,NA,NA,NA,NA,NA
+"188",188,"fish","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"189",189,"grapes","frozen meals","coffee","cake bar","fish",NA,NA,NA,NA,NA,NA,NA
+"190",190,"cake bar","domestic eggs","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"191",191,"abrasive cleaner","cake bar","domestic eggs","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"192",192,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"193",193,"abrasive cleaner","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"194",194,"grapes","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"195",195,"fish","honey","frozen meals","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"196",196,"baking powder","fish","frozen vegetables","frozen meals","butter","domestic eggs",NA,NA,NA,NA,NA,NA
+"197",197,"fish","cake bar","frozen vegetables","coffee","frozen meals","honey",NA,NA,NA,NA,NA,NA
+"198",198,"frozen meals","cake bar","domestic eggs","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA
+"199",199,"fish","butter","frozen meals","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA
+"200",200,"domestic eggs","abrasive cleaner","coffee","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"201",201,"coffee","fish","ice cream","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"202",202,"cake bar","frozen vegetables","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA
+"203",203,"coffee","butter","baking powder","frozen vegetables","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA
+"204",204,"coffee","frozen meals","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"205",205,"butter","coffee","domestic eggs","ice cream","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"206",206,"honey","abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"207",207,"fish","grapes","baking powder","abrasive cleaner","butter",NA,NA,NA,NA,NA,NA,NA
+"208",208,"honey","abrasive cleaner","coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"209",209,"frozen vegetables","coffee","baking powder","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"210",210,"frozen meals","ice cream","domestic eggs","coffee","fish","honey",NA,NA,NA,NA,NA,NA
+"211",211,"domestic eggs","fish","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"212",212,"fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"213",213,"coffee","frozen meals","butter","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"214",214,"frozen meals","grapes","abrasive cleaner","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"215",215,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"216",216,"frozen vegetables","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"217",217,"butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"218",218,"abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"219",219,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"220",220,"baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"221",221,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"222",222,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"223",223,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"224",224,"coffee","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"225",225,"butter","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"226",226,"cake bar","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"227",227,"ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"228",228,"frozen vegetables","frozen meals","honey","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA
+"229",229,"coffee","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"230",230,"frozen meals","frozen vegetables","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"231",231,"butter","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"232",232,"fish","frozen meals","ice cream","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"233",233,"baking powder","butter","frozen meals","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"234",234,"cake bar","coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"235",235,"baking powder","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"236",236,"butter","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"237",237,"grapes","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"238",238,"honey","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"239",239,"baking powder","cake bar","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"240",240,"fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"241",241,"grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"242",242,"domestic eggs","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"243",243,"cake bar","frozen meals","ice cream","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"244",244,"butter","coffee","abrasive cleaner","ice cream","baking powder","fish","frozen meals",NA,NA,NA,NA,NA
+"245",245,"ice cream","baking powder","coffee","butter","grapes","frozen meals",NA,NA,NA,NA,NA,NA
+"246",246,"domestic eggs","coffee","frozen meals","abrasive cleaner","fish","cake bar",NA,NA,NA,NA,NA,NA
+"247",247,"frozen vegetables","baking powder","cake bar","abrasive cleaner","ice cream","butter",NA,NA,NA,NA,NA,NA
+"248",248,"baking powder","butter","honey","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA
+"249",249,"coffee","butter","fish","domestic eggs","baking powder","frozen vegetables","frozen meals",NA,NA,NA,NA,NA
+"250",250,"frozen vegetables","honey","cake bar","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA
+"251",251,"fish","ice cream","honey","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"252",252,"abrasive cleaner","domestic eggs","fish","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"253",253,"coffee","butter","grapes","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"254",254,"frozen vegetables","baking powder","domestic eggs","butter","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA
+"255",255,"domestic eggs","ice cream","frozen meals","coffee","fish",NA,NA,NA,NA,NA,NA,NA
+"256",256,"coffee","butter","baking powder","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"257",257,"baking powder","cake bar","butter","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA
+"258",258,"domestic eggs","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"259",259,"honey","abrasive cleaner","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"260",260,"butter","frozen vegetables","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"261",261,"frozen vegetables","baking powder","grapes","butter","coffee","honey","frozen meals",NA,NA,NA,NA,NA
+"262",262,"butter","fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"263",263,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"264",264,"cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"265",265,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"266",266,"frozen vegetables","ice cream","honey","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"267",267,"ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"268",268,"coffee","cake bar","frozen vegetables","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA
+"269",269,"coffee","fish","frozen meals","honey","abrasive cleaner","grapes",NA,NA,NA,NA,NA,NA
+"270",270,"baking powder","frozen vegetables","honey","coffee","frozen meals","butter",NA,NA,NA,NA,NA,NA
+"271",271,"frozen vegetables","frozen meals","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"272",272,"grapes","frozen vegetables","baking powder","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA
+"273",273,"frozen vegetables","butter","coffee","abrasive cleaner","ice cream","fish","frozen meals",NA,NA,NA,NA,NA
+"274",274,"frozen vegetables","coffee","fish","grapes","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"275",275,"fish","frozen meals","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"276",276,"baking powder","coffee","butter","grapes","cake bar","frozen meals",NA,NA,NA,NA,NA,NA
+"277",277,"baking powder","butter","grapes","frozen vegetables","cake bar","frozen meals","ice cream",NA,NA,NA,NA,NA
+"278",278,"ice cream","grapes","honey","butter","cake bar",NA,NA,NA,NA,NA,NA,NA
+"279",279,"honey","ice cream","grapes","domestic eggs","butter","frozen vegetables","baking powder",NA,NA,NA,NA,NA
+"280",280,"fish","butter","baking powder","frozen meals","frozen vegetables","coffee",NA,NA,NA,NA,NA,NA
+"281",281,"cake bar","butter","frozen meals","ice cream","honey",NA,NA,NA,NA,NA,NA,NA
+"282",282,"coffee","baking powder","frozen vegetables","abrasive cleaner","butter","frozen meals",NA,NA,NA,NA,NA,NA
+"283",283,"cake bar","grapes","coffee","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"284",284,"butter","coffee","baking powder","frozen vegetables","honey","frozen meals",NA,NA,NA,NA,NA,NA
+"285",285,"grapes","frozen meals","coffee","fish","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"286",286,"coffee","fish","ice cream","grapes","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"287",287,"ice cream","frozen vegetables","frozen meals","coffee","grapes",NA,NA,NA,NA,NA,NA,NA
+"288",288,"abrasive cleaner","ice cream","grapes","coffee","baking powder","frozen meals",NA,NA,NA,NA,NA,NA
+"289",289,"frozen meals","butter","coffee","ice cream","abrasive cleaner","frozen vegetables",NA,NA,NA,NA,NA,NA
+"290",290,"domestic eggs","fish","cake bar","baking powder","coffee","butter","frozen meals",NA,NA,NA,NA,NA
+"291",291,"fish","grapes","butter","frozen meals","ice cream","cake bar",NA,NA,NA,NA,NA,NA
+"292",292,"frozen meals","butter","baking powder","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"293",293,"abrasive cleaner","butter","coffee","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"294",294,"frozen meals","fish","frozen vegetables","coffee","cake bar","baking powder",NA,NA,NA,NA,NA,NA
+"295",295,"butter","fish","abrasive cleaner","cake bar","ice cream","coffee","frozen meals",NA,NA,NA,NA,NA
+"296",296,"abrasive cleaner","cake bar","grapes","frozen vegetables","baking powder","butter",NA,NA,NA,NA,NA,NA
+"297",297,"grapes","baking powder","cake bar","butter","frozen meals","frozen vegetables",NA,NA,NA,NA,NA,NA
+"298",298,"fish","frozen meals","coffee","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"299",299,"frozen vegetables","abrasive cleaner","cake bar","frozen meals","coffee",NA,NA,NA,NA,NA,NA,NA
+"300",300,"coffee","cake bar","fish","frozen meals","honey",NA,NA,NA,NA,NA,NA,NA
+"301",301,"butter","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"302",302,"butter","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"303",303,"frozen meals","cake bar","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"304",304,"honey","abrasive cleaner","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"305",305,"baking powder","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"306",306,"baking powder","fish","domestic eggs","cake bar","butter",NA,NA,NA,NA,NA,NA,NA
+"307",307,"ice cream","baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"308",308,"frozen vegetables","ice cream","frozen meals","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"309",309,"butter","frozen meals","coffee",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"310",310,"honey","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"311",311,"ice cream","fish","domestic eggs","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"312",312,"butter","baking powder","cake bar","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"313",313,"coffee","baking powder","fish","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"314",314,"abrasive cleaner","honey","frozen vegetables","fish","ice cream",NA,NA,NA,NA,NA,NA,NA
+"315",315,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"316",316,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"317",317,"abrasive cleaner","coffee","fish","butter","ice cream","baking powder","frozen meals",NA,NA,NA,NA,NA
+"318",318,"grapes","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"319",319,"butter","coffee","baking powder","fish","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"320",320,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"321",321,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"322",322,"baking powder","butter","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"323",323,"butter","grapes","baking powder","cake bar","fish",NA,NA,NA,NA,NA,NA,NA
+"324",324,"baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"325",325,"butter","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"326",326,"ice cream","grapes","domestic eggs","honey","fish",NA,NA,NA,NA,NA,NA,NA
+"327",327,"butter","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"328",328,"grapes","ice cream","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"329",329,"abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"330",330,"frozen vegetables","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"331",331,"frozen meals","butter","frozen vegetables","abrasive cleaner","ice cream",NA,NA,NA,NA,NA,NA,NA
+"332",332,"fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"333",333,"baking powder","abrasive cleaner","grapes","cake bar","butter","coffee","frozen meals",NA,NA,NA,NA,NA
+"334",334,"butter","abrasive cleaner","coffee","domestic eggs","baking powder","frozen meals",NA,NA,NA,NA,NA,NA
+"335",335,"cake bar","butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"336",336,"baking powder","coffee","butter","abrasive cleaner","fish","frozen meals",NA,NA,NA,NA,NA,NA
+"337",337,"frozen meals","baking powder","coffee","butter","ice cream",NA,NA,NA,NA,NA,NA,NA
+"338",338,"domestic eggs","grapes","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"339",339,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"340",340,"frozen meals","cake bar","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"341",341,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"342",342,"ice cream","abrasive cleaner","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"343",343,"butter","coffee","frozen vegetables","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"344",344,"grapes","honey","fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"345",345,"frozen meals","fish","frozen vegetables","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"346",346,"grapes","domestic eggs","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"347",347,"baking powder","grapes","fish","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"348",348,"abrasive cleaner","butter","frozen vegetables","grapes","domestic eggs",NA,NA,NA,NA,NA,NA,NA
+"349",349,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"350",350,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"351",351,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"352",352,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"353",353,"ice cream","grapes","abrasive cleaner","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"354",354,"frozen vegetables","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"355",355,"butter","coffee","domestic eggs","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"356",356,"frozen vegetables","domestic eggs","abrasive cleaner","honey","fish",NA,NA,NA,NA,NA,NA,NA
+"357",357,"coffee","ice cream","butter","frozen vegetables","domestic eggs","fish","frozen meals",NA,NA,NA,NA,NA
+"358",358,"coffee","butter","baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"359",359,"cake bar","ice cream","abrasive cleaner","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"360",360,"domestic eggs","cake bar","baking powder","butter","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"361",361,"coffee","abrasive cleaner","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"362",362,"butter","ice cream","grapes","baking powder","coffee","frozen meals",NA,NA,NA,NA,NA,NA
+"363",363,"butter","frozen meals","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"364",364,"abrasive cleaner","fish","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"365",365,"cake bar","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"366",366,"frozen meals","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"367",367,"frozen vegetables","butter","fish","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"368",368,"fish","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"369",369,"coffee","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"370",370,"fish","butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"371",371,"frozen meals","fish","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"372",372,"grapes","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"373",373,"baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"374",374,"cake bar","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"375",375,"butter","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"376",376,"baking powder","butter","abrasive cleaner","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"377",377,"fish","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"378",378,"grapes","butter","frozen vegetables","fish",NA,NA,NA,NA,NA,NA,NA,NA
+"379",379,"baking powder","grapes","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"380",380,"frozen vegetables","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"381",381,"frozen meals","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"382",382,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"383",383,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"384",384,"butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"385",385,"grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"386",386,"grapes","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"387",387,"frozen vegetables","frozen meals","cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"388",388,"abrasive cleaner","frozen vegetables","butter","baking powder","ice cream",NA,NA,NA,NA,NA,NA,NA
+"389",389,"grapes","baking powder","butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"390",390,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"391",391,"cake bar","frozen meals","ice cream","baking powder","coffee",NA,NA,NA,NA,NA,NA,NA
+"392",392,"baking powder","coffee","ice cream","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"393",393,"grapes","baking powder","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"394",394,"butter","frozen meals","grapes","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA
+"395",395,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"396",396,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"397",397,"coffee","grapes","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"398",398,"cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"399",399,"cake bar","butter","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"400",400,"grapes","butter","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"401",401,"ice cream","domestic eggs","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"402",402,"coffee","butter","baking powder","honey","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"403",403,"fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"404",404,"grapes","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"405",405,"honey","grapes","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"406",406,"honey","butter","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"407",407,"coffee","honey","butter","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"408",408,"fish","abrasive cleaner","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"409",409,"cake bar","grapes","frozen vegetables","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"410",410,"cake bar","butter","domestic eggs","grapes","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"411",411,"frozen meals","baking powder","frozen vegetables","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"412",412,"grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"413",413,"butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"414",414,"honey","grapes","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"415",415,"cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"416",416,"fish","butter","domestic eggs","cake bar","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"417",417,"baking powder","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"418",418,"butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"419",419,"fish","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"420",420,"abrasive cleaner","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"421",421,"baking powder","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"422",422,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"423",423,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"424",424,"baking powder","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"425",425,"abrasive cleaner","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"426",426,"coffee","cake bar","domestic eggs","frozen meals","baking powder",NA,NA,NA,NA,NA,NA,NA
+"427",427,"domestic eggs","ice cream","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"428",428,"abrasive cleaner","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"429",429,"coffee","fish","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"430",430,"baking powder","domestic eggs","frozen meals","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"431",431,"butter","frozen meals","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"432",432,"cake bar","baking powder","frozen meals","grapes","fish",NA,NA,NA,NA,NA,NA,NA
+"433",433,"frozen meals","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"434",434,"frozen vegetables","abrasive cleaner","cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"435",435,"coffee","frozen vegetables","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"436",436,"ice cream","frozen meals","frozen vegetables","domestic eggs","grapes",NA,NA,NA,NA,NA,NA,NA
+"437",437,"coffee","frozen meals","honey","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"438",438,"grapes","coffee","fish","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"439",439,"frozen vegetables","grapes","domestic eggs","fish","cake bar",NA,NA,NA,NA,NA,NA,NA
+"440",440,"fish","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"441",441,"grapes","frozen meals","coffee","cake bar","fish",NA,NA,NA,NA,NA,NA,NA
+"442",442,"cake bar","domestic eggs","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"443",443,"abrasive cleaner","cake bar","domestic eggs","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"444",444,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"445",445,"abrasive cleaner","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"446",446,"grapes","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"447",447,"fish","honey","frozen meals","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"448",448,"baking powder","fish","frozen vegetables","frozen meals","butter","domestic eggs",NA,NA,NA,NA,NA,NA
+"449",449,"fish","cake bar","frozen vegetables","coffee","frozen meals","honey",NA,NA,NA,NA,NA,NA
+"450",450,"frozen meals","cake bar","domestic eggs","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA
+"451",451,"fish","butter","frozen meals","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA
+"452",452,"domestic eggs","abrasive cleaner","coffee","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"453",453,"coffee","fish","ice cream","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"454",454,"cake bar","frozen vegetables","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA
+"455",455,"coffee","butter","baking powder","frozen vegetables","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA
+"456",456,"coffee","frozen meals","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"457",457,"butter","coffee","domestic eggs","ice cream","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"458",458,"honey","abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"459",459,"fish","grapes","baking powder","abrasive cleaner","butter",NA,NA,NA,NA,NA,NA,NA
+"460",460,"honey","abrasive cleaner","coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"461",461,"frozen vegetables","coffee","baking powder","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"462",462,"frozen meals","ice cream","domestic eggs","coffee","fish","honey",NA,NA,NA,NA,NA,NA
+"463",463,"domestic eggs","fish","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"464",464,"fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"465",465,"coffee","frozen meals","butter","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"466",466,"frozen meals","grapes","abrasive cleaner","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"467",467,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"468",468,"frozen vegetables","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"469",469,"butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"470",470,"abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"471",471,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"472",472,"baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"473",473,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"474",474,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"475",475,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"476",476,"coffee","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"477",477,"butter","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"478",478,"cake bar","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"479",479,"ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"480",480,"frozen vegetables","frozen meals","honey","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA
+"481",481,"coffee","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"482",482,"frozen meals","frozen vegetables","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"483",483,"butter","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"484",484,"fish","frozen meals","ice cream","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"485",485,"baking powder","butter","frozen meals","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"486",486,"cake bar","coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"487",487,"baking powder","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"488",488,"butter","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"489",489,"grapes","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"490",490,"honey","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"491",491,"baking powder","cake bar","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"492",492,"fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"493",493,"grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"494",494,"domestic eggs","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"495",495,"cake bar","frozen meals","ice cream","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"496",496,"butter","coffee","abrasive cleaner","ice cream","baking powder","fish","frozen meals",NA,NA,NA,NA,NA
+"497",497,"ice cream","baking powder","coffee","butter","grapes","frozen meals",NA,NA,NA,NA,NA,NA
+"498",498,"domestic eggs","coffee","frozen meals","abrasive cleaner","fish","cake bar",NA,NA,NA,NA,NA,NA
+"499",499,"frozen vegetables","baking powder","cake bar","abrasive cleaner","ice cream","butter",NA,NA,NA,NA,NA,NA
+"500",500,"baking powder","butter","honey","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA
+"501",501,"coffee","butter","fish","domestic eggs","baking powder","frozen vegetables","frozen meals",NA,NA,NA,NA,NA
+"502",502,"frozen vegetables","honey","cake bar","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA
+"503",503,"fish","ice cream","honey","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"504",504,"abrasive cleaner","domestic eggs","fish","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"505",505,"coffee","butter","grapes","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"506",506,"frozen vegetables","baking powder","domestic eggs","butter","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA
+"507",507,"domestic eggs","ice cream","frozen meals","coffee","fish",NA,NA,NA,NA,NA,NA,NA
+"508",508,"coffee","butter","baking powder","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"509",509,"baking powder","cake bar","butter","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA
+"510",510,"domestic eggs","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"511",511,"honey","abrasive cleaner","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"512",512,"butter","frozen vegetables","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"513",513,"frozen vegetables","baking powder","grapes","butter","coffee","honey","frozen meals",NA,NA,NA,NA,NA
+"514",514,"butter","fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"515",515,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"516",516,"cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"517",517,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"518",518,"frozen vegetables","ice cream","honey","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"519",519,"ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"520",520,"coffee","cake bar","frozen vegetables","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA
+"521",521,"coffee","fish","frozen meals","honey","abrasive cleaner","grapes",NA,NA,NA,NA,NA,NA
+"522",522,"baking powder","frozen vegetables","honey","coffee","frozen meals","butter",NA,NA,NA,NA,NA,NA
+"523",523,"frozen vegetables","frozen meals","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"524",524,"grapes","frozen vegetables","baking powder","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA
+"525",525,"frozen vegetables","butter","coffee","abrasive cleaner","ice cream","fish","frozen meals",NA,NA,NA,NA,NA
+"526",526,"frozen vegetables","coffee","fish","grapes","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"527",527,"fish","frozen meals","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"528",528,"baking powder","coffee","butter","grapes","cake bar","frozen meals",NA,NA,NA,NA,NA,NA
+"529",529,"baking powder","butter","grapes","frozen vegetables","cake bar","frozen meals","ice cream",NA,NA,NA,NA,NA
+"530",530,"ice cream","grapes","honey","butter","cake bar",NA,NA,NA,NA,NA,NA,NA
+"531",531,"cake bar","domestic eggs","frozen meals","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"532",532,"ice cream","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"533",533,"butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"534",534,"fish","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"535",535,"domestic eggs","frozen meals","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"536",536,"frozen meals","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"537",537,"baking powder","frozen meals","grapes","fish",NA,NA,NA,NA,NA,NA,NA,NA
+"538",538,"frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"539",539,"abrasive cleaner","cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"540",540,"frozen vegetables","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"541",541,"frozen meals","frozen vegetables","domestic eggs","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"542",542,"frozen meals","honey","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"543",543,"coffee","fish","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"544",544,"grapes","domestic eggs","fish","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"545",545,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"546",546,"frozen meals","coffee","cake bar","fish",NA,NA,NA,NA,NA,NA,NA,NA
+"547",547,"domestic eggs","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"548",548,"cake bar","domestic eggs","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"549",549,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"550",550,"fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"551",551,"ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"552",552,"honey","frozen meals","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"553",553,"fish","frozen vegetables","frozen meals","butter","domestic eggs",NA,NA,NA,NA,NA,NA,NA
+"554",554,"cake bar","frozen vegetables","coffee","frozen meals","honey",NA,NA,NA,NA,NA,NA,NA
+"555",555,"cake bar","domestic eggs","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"556",556,"butter","frozen meals","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"557",557,"abrasive cleaner","coffee","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"558",558,"fish","ice cream","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"559",559,"frozen vegetables","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"560",560,"butter","baking powder","frozen vegetables","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"561",561,"frozen meals","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"562",562,"coffee","domestic eggs","ice cream","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"563",563,"abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"564",564,"grapes","baking powder","abrasive cleaner","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"565",565,"abrasive cleaner","coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"566",566,"coffee","baking powder","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"567",567,"ice cream","domestic eggs","coffee","fish","honey",NA,NA,NA,NA,NA,NA,NA
+"568",568,"fish","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"569",569,"frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"570",570,"frozen meals","butter","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"571",571,"grapes","abrasive cleaner","coffee",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"572",572,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"573",573,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"574",574,"grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"575",575,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"576",576,"frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"577",577,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"578",578,"frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"579",579,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"580",580,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"581",581,"baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"582",582,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"583",583,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"584",584,"frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"585",585,"frozen meals","honey","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"586",586,"ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"587",587,"frozen vegetables","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"588",588,"frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"589",589,"frozen meals","ice cream","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"590",590,"butter","frozen meals","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"591",591,"coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"592",592,"cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"593",593,"fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"594",594,"frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"595",595,"grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"596",596,"cake bar","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"597",597,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"598",598,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"599",599,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"600",600,"frozen meals","ice cream","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"601",601,"coffee","abrasive cleaner","ice cream","baking powder","fish","frozen meals",NA,NA,NA,NA,NA,NA
+"602",602,"baking powder","coffee","butter","grapes","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"603",603,"coffee","frozen meals","abrasive cleaner","fish","cake bar",NA,NA,NA,NA,NA,NA,NA
+"604",604,"baking powder","cake bar","abrasive cleaner","ice cream","butter",NA,NA,NA,NA,NA,NA,NA
+"605",605,"butter","honey","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"606",606,"butter","fish","domestic eggs","baking powder","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"607",607,"honey","cake bar","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"608",608,"ice cream","honey","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"609",609,"domestic eggs","fish","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"610",610,"butter","grapes","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"611",611,"baking powder","domestic eggs","butter","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA
+"612",612,"ice cream","frozen meals","coffee","fish",NA,NA,NA,NA,NA,NA,NA,NA
+"613",613,"butter","baking powder","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"614",614,"cake bar","butter","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"615",615,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"616",616,"abrasive cleaner","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"617",617,"frozen vegetables","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"618",618,"baking powder","grapes","butter","coffee","honey","frozen meals",NA,NA,NA,NA,NA,NA
+"619",619,"fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"620",620,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"621",621,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"622",622,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"623",623,"ice cream","honey","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"624",624,"baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"625",625,"cake bar","frozen vegetables","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"626",626,"fish","frozen meals","honey","abrasive cleaner","grapes",NA,NA,NA,NA,NA,NA,NA
+"627",627,"frozen vegetables","honey","coffee","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA
+"628",628,"frozen meals","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"629",629,"frozen vegetables","baking powder","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"630",630,"butter","coffee","abrasive cleaner","ice cream","fish","frozen meals",NA,NA,NA,NA,NA,NA
+"631",631,"coffee","fish","grapes","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"632",632,"frozen meals","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"633",633,"coffee","butter","grapes","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"634",634,"butter","grapes","frozen vegetables","cake bar","frozen meals","ice cream",NA,NA,NA,NA,NA,NA
+"635",635,"grapes","honey","butter","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"636",636,"ice cream","grapes","domestic eggs","butter","frozen vegetables","baking powder",NA,NA,NA,NA,NA,NA
+"637",637,"butter","baking powder","frozen meals","frozen vegetables","coffee",NA,NA,NA,NA,NA,NA,NA
+"638",638,"butter","frozen meals","ice cream","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"639",639,"baking powder","frozen vegetables","abrasive cleaner","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"640",640,"grapes","coffee","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"641",641,"coffee","baking powder","frozen vegetables","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"642",642,"frozen meals","coffee","fish","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"643",643,"fish","ice cream","grapes","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"644",644,"frozen vegetables","frozen meals","coffee","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"645",645,"ice cream","grapes","coffee","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"646",646,"butter","coffee","ice cream","abrasive cleaner","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"647",647,"fish","cake bar","baking powder","coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA
+"648",648,"baking powder","coffee","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"649",649,"ice cream","abrasive cleaner","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"650",650,"butter","baking powder","coffee","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"651",651,"frozen vegetables","abrasive cleaner","ice cream","butter","coffee",NA,NA,NA,NA,NA,NA,NA
+"652",652,"baking powder","ice cream","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"653",653,"ice cream","frozen vegetables","coffee","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"654",654,"honey","fish","abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA
+"655",655,"butter","frozen meals","fish","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"656",656,"coffee","honey","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"657",657,"honey","frozen meals","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"658",658,"abrasive cleaner","frozen vegetables","baking powder","butter","domestic eggs",NA,NA,NA,NA,NA,NA,NA
+"659",659,"frozen meals","domestic eggs","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"660",660,"ice cream","cake bar","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"661",661,"baking powder","domestic eggs","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"662",662,"coffee","butter","baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"663",663,"frozen vegetables","frozen meals","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"664",664,"butter","fish","frozen meals","baking powder","ice cream",NA,NA,NA,NA,NA,NA,NA
+"665",665,"butter","baking powder","frozen meals","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"666",666,"baking powder","domestic eggs","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"667",667,"fish","frozen vegetables","frozen meals","baking powder","butter",NA,NA,NA,NA,NA,NA,NA
+"668",668,"butter","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"669",669,"butter","coffee","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"670",670,"butter","coffee","domestic eggs","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"671",671,"fish","frozen meals","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"672",672,"baking powder","cake bar","butter","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"673",673,"domestic eggs","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"674",674,"frozen meals","fish","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"675",675,"baking powder","frozen meals","domestic eggs","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"676",676,"fish","frozen meals","domestic eggs","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"677",677,"butter","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"678",678,"frozen meals","frozen vegetables","baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"679",679,"coffee","baking powder","butter","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"680",680,"fish","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"681",681,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"682",682,"frozen vegetables","abrasive cleaner","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"683",683,"fish","coffee","frozen meals","ice cream","honey",NA,NA,NA,NA,NA,NA,NA
+"684",684,"coffee","butter","baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"685",685,"honey","frozen meals","ice cream","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"686",686,"frozen vegetables","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"687",687,"honey","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"688",688,"honey","domestic eggs","frozen meals","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"689",689,"frozen vegetables","domestic eggs","fish","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"690",690,"coffee","domestic eggs","butter","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"691",691,"butter","coffee","baking powder","ice cream","fish","frozen meals",NA,NA,NA,NA,NA,NA
+"692",692,"baking powder","butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"693",693,"baking powder","domestic eggs","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"694",694,"coffee","ice cream","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"695",695,"frozen meals","baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"696",696,"butter","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"697",697,"butter","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"698",698,"frozen meals","cake bar","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"699",699,"honey","abrasive cleaner","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"700",700,"baking powder","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"701",701,"baking powder","fish","domestic eggs","cake bar","butter",NA,NA,NA,NA,NA,NA,NA
+"702",702,"ice cream","baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"703",703,"frozen vegetables","ice cream","frozen meals","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"704",704,"butter","frozen meals","coffee",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"705",705,"honey","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"706",706,"ice cream","fish","domestic eggs","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"707",707,"butter","baking powder","cake bar","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"708",708,"coffee","baking powder","fish","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"709",709,"abrasive cleaner","honey","frozen vegetables","fish","ice cream",NA,NA,NA,NA,NA,NA,NA
+"710",710,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"711",711,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"712",712,"abrasive cleaner","coffee","fish","butter","ice cream","baking powder",NA,NA,NA,NA,NA,NA
+"713",713,"grapes","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"714",714,"butter","coffee","baking powder","fish","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"715",715,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"716",716,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"717",717,"baking powder","butter","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"718",718,"butter","grapes","baking powder","cake bar","fish",NA,NA,NA,NA,NA,NA,NA
+"719",719,"baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"720",720,"butter","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"721",721,"ice cream","grapes","domestic eggs","honey","fish",NA,NA,NA,NA,NA,NA,NA
+"722",722,"butter","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"723",723,"grapes","ice cream","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"724",724,"abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"725",725,"frozen vegetables","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"726",726,"frozen meals","butter","frozen vegetables","abrasive cleaner","ice cream",NA,NA,NA,NA,NA,NA,NA
+"727",727,"fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"728",728,"baking powder","abrasive cleaner","grapes","cake bar","butter","coffee",NA,NA,NA,NA,NA,NA
+"729",729,"butter","abrasive cleaner","coffee","domestic eggs","baking powder","frozen meals",NA,NA,NA,NA,NA,NA
+"730",730,"cake bar","butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"731",731,"baking powder","coffee","butter","abrasive cleaner","fish","frozen meals",NA,NA,NA,NA,NA,NA
+"732",732,"frozen meals","baking powder","coffee","butter","ice cream",NA,NA,NA,NA,NA,NA,NA
+"733",733,"domestic eggs","grapes","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"734",734,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"735",735,"frozen meals","cake bar","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"736",736,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"737",737,"ice cream","abrasive cleaner","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"738",738,"butter","coffee","frozen vegetables","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"739",739,"grapes","honey","fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"740",740,"frozen meals","fish","frozen vegetables","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"741",741,"grapes","domestic eggs","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"742",742,"baking powder","grapes","fish","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"743",743,"abrasive cleaner","butter","frozen vegetables","grapes","domestic eggs",NA,NA,NA,NA,NA,NA,NA
+"744",744,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"745",745,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"746",746,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"747",747,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"748",748,"ice cream","grapes","abrasive cleaner","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"749",749,"frozen vegetables","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"750",750,"butter","coffee","domestic eggs","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"751",751,"frozen vegetables","domestic eggs","abrasive cleaner","honey","fish",NA,NA,NA,NA,NA,NA,NA
+"752",752,"coffee","ice cream","butter","frozen vegetables","domestic eggs","fish",NA,NA,NA,NA,NA,NA
+"753",753,"coffee","butter","baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"754",754,"cake bar","ice cream","abrasive cleaner","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"755",755,"domestic eggs","cake bar","baking powder","butter","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"756",756,"coffee","abrasive cleaner","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"757",757,"butter","ice cream","grapes","baking powder","coffee","frozen meals",NA,NA,NA,NA,NA,NA
+"758",758,"butter","frozen meals","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"759",759,"abrasive cleaner","fish","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"760",760,"cake bar","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"761",761,"frozen meals","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"762",762,"frozen vegetables","butter","fish","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"763",763,"fish","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"764",764,"coffee","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"765",765,"fish","butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"766",766,"frozen meals","fish","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"767",767,"grapes","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"768",768,"baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"769",769,"cake bar","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"770",770,"butter","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"771",771,"baking powder","butter","abrasive cleaner","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"772",772,"fish","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"773",773,"grapes","butter","frozen vegetables","fish",NA,NA,NA,NA,NA,NA,NA,NA
+"774",774,"baking powder","grapes","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"775",775,"frozen vegetables","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"776",776,"frozen meals","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"777",777,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"778",778,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"779",779,"butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"780",780,"grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"781",781,"grapes","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"782",782,"frozen vegetables","frozen meals","cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"783",783,"abrasive cleaner","frozen vegetables","butter","baking powder","ice cream",NA,NA,NA,NA,NA,NA,NA
+"784",784,"grapes","baking powder","butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"785",785,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"786",786,"cake bar","frozen meals","ice cream","baking powder","coffee",NA,NA,NA,NA,NA,NA,NA
+"787",787,"baking powder","coffee","ice cream","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"788",788,"grapes","baking powder","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"789",789,"butter","frozen meals","grapes","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA
+"790",790,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"791",791,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"792",792,"coffee","grapes","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"793",793,"cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"794",794,"cake bar","butter","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"795",795,"grapes","butter","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"796",796,"ice cream","domestic eggs","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"797",797,"coffee","butter","baking powder","honey","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"798",798,"fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"799",799,"grapes","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"800",800,"honey","grapes","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"801",801,"honey","butter","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"802",802,"coffee","honey","butter","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"803",803,"fish","abrasive cleaner","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"804",804,"cake bar","grapes","frozen vegetables","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"805",805,"cake bar","butter","domestic eggs","grapes","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"806",806,"frozen meals","baking powder","frozen vegetables","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"807",807,"grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"808",808,"butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"809",809,"honey","grapes","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"810",810,"cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"811",811,"fish","butter","domestic eggs","cake bar","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"812",812,"baking powder","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"813",813,"butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"814",814,"fish","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"815",815,"abrasive cleaner","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"816",816,"baking powder","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"817",817,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"818",818,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"819",819,"baking powder","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"820",820,"abrasive cleaner","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"821",821,"coffee","cake bar","domestic eggs","frozen meals","baking powder",NA,NA,NA,NA,NA,NA,NA
+"822",822,"domestic eggs","ice cream","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"823",823,"abrasive cleaner","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"824",824,"coffee","fish","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"825",825,"baking powder","domestic eggs","frozen meals","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"826",826,"butter","frozen meals","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"827",827,"cake bar","baking powder","frozen meals","grapes","fish",NA,NA,NA,NA,NA,NA,NA
+"828",828,"frozen meals","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"829",829,"frozen vegetables","abrasive cleaner","cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"830",830,"coffee","frozen vegetables","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"831",831,"ice cream","frozen meals","frozen vegetables","domestic eggs","grapes",NA,NA,NA,NA,NA,NA,NA
+"832",832,"coffee","frozen meals","honey","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"833",833,"grapes","coffee","fish","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"834",834,"frozen vegetables","grapes","domestic eggs","fish","cake bar",NA,NA,NA,NA,NA,NA,NA
+"835",835,"fish","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"836",836,"grapes","frozen meals","coffee","cake bar","fish",NA,NA,NA,NA,NA,NA,NA
+"837",837,"cake bar","domestic eggs","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"838",838,"abrasive cleaner","cake bar","domestic eggs","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"839",839,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"840",840,"abrasive cleaner","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"841",841,"grapes","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"842",842,"fish","honey","frozen meals","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"843",843,"baking powder","fish","frozen vegetables","frozen meals","butter","domestic eggs",NA,NA,NA,NA,NA,NA
+"844",844,"fish","cake bar","frozen vegetables","coffee","frozen meals","honey",NA,NA,NA,NA,NA,NA
+"845",845,"frozen meals","cake bar","domestic eggs","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA
+"846",846,"fish","butter","frozen meals","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA
+"847",847,"domestic eggs","abrasive cleaner","coffee","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"848",848,"coffee","fish","ice cream","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"849",849,"cake bar","frozen vegetables","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA
+"850",850,"coffee","butter","baking powder","frozen vegetables","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA
+"851",851,"coffee","frozen meals","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"852",852,"butter","coffee","domestic eggs","ice cream","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"853",853,"honey","abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"854",854,"fish","grapes","baking powder","abrasive cleaner","butter",NA,NA,NA,NA,NA,NA,NA
+"855",855,"honey","abrasive cleaner","coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"856",856,"frozen vegetables","coffee","baking powder","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"857",857,"frozen meals","ice cream","domestic eggs","coffee","fish","honey",NA,NA,NA,NA,NA,NA
+"858",858,"domestic eggs","fish","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"859",859,"fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"860",860,"coffee","frozen meals","butter","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"861",861,"frozen meals","grapes","abrasive cleaner","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"862",862,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"863",863,"frozen vegetables","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"864",864,"butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"865",865,"abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"866",866,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"867",867,"baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"868",868,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"869",869,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"870",870,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"871",871,"coffee","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"872",872,"butter","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"873",873,"cake bar","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"874",874,"ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"875",875,"frozen vegetables","frozen meals","honey","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA
+"876",876,"coffee","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"877",877,"frozen meals","frozen vegetables","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"878",878,"butter","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"879",879,"fish","frozen meals","ice cream","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"880",880,"baking powder","butter","frozen meals","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"881",881,"cake bar","coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"882",882,"baking powder","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"883",883,"butter","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"884",884,"grapes","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"885",885,"honey","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"886",886,"baking powder","cake bar","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"887",887,"fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"888",888,"grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"889",889,"domestic eggs","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"890",890,"cake bar","frozen meals","ice cream","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"891",891,"butter","coffee","abrasive cleaner","ice cream","baking powder","fish",NA,NA,NA,NA,NA,NA
+"892",892,"ice cream","baking powder","coffee","butter","grapes","frozen meals",NA,NA,NA,NA,NA,NA
+"893",893,"domestic eggs","coffee","frozen meals","abrasive cleaner","fish","cake bar",NA,NA,NA,NA,NA,NA
+"894",894,"frozen vegetables","baking powder","cake bar","abrasive cleaner","ice cream","butter",NA,NA,NA,NA,NA,NA
+"895",895,"baking powder","butter","honey","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA
+"896",896,"coffee","butter","fish","domestic eggs","baking powder","frozen vegetables",NA,NA,NA,NA,NA,NA
+"897",897,"frozen vegetables","honey","cake bar","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA
+"898",898,"fish","ice cream","honey","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"899",899,"abrasive cleaner","domestic eggs","fish","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"900",900,"coffee","butter","grapes","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"901",901,"frozen vegetables","baking powder","domestic eggs","butter","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA
+"902",902,"domestic eggs","ice cream","frozen meals","coffee","fish",NA,NA,NA,NA,NA,NA,NA
+"903",903,"coffee","butter","baking powder","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"904",904,"baking powder","cake bar","butter","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA
+"905",905,"domestic eggs","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"906",906,"honey","abrasive cleaner","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"907",907,"butter","frozen vegetables","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"908",908,"frozen vegetables","baking powder","grapes","butter","coffee","honey",NA,NA,NA,NA,NA,NA
+"909",909,"butter","fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"910",910,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"911",911,"cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"912",912,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"913",913,"frozen vegetables","ice cream","honey","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"914",914,"ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"915",915,"coffee","cake bar","frozen vegetables","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA
+"916",916,"coffee","fish","frozen meals","honey","abrasive cleaner","grapes",NA,NA,NA,NA,NA,NA
+"917",917,"baking powder","frozen vegetables","honey","coffee","frozen meals","butter",NA,NA,NA,NA,NA,NA
+"918",918,"frozen vegetables","frozen meals","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"919",919,"grapes","frozen vegetables","baking powder","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA
+"920",920,"frozen vegetables","butter","coffee","abrasive cleaner","ice cream","fish",NA,NA,NA,NA,NA,NA
+"921",921,"frozen vegetables","coffee","fish","grapes","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"922",922,"fish","frozen meals","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"923",923,"baking powder","coffee","butter","grapes","cake bar","frozen meals",NA,NA,NA,NA,NA,NA
+"924",924,"baking powder","butter","grapes","frozen vegetables","cake bar","frozen meals",NA,NA,NA,NA,NA,NA
+"925",925,"ice cream","grapes","honey","butter","cake bar",NA,NA,NA,NA,NA,NA,NA
+"926",926,"honey","ice cream","grapes","domestic eggs","butter","frozen vegetables",NA,NA,NA,NA,NA,NA
+"927",927,"fish","butter","baking powder","frozen meals","frozen vegetables","coffee",NA,NA,NA,NA,NA,NA
+"928",928,"cake bar","butter","frozen meals","ice cream","honey",NA,NA,NA,NA,NA,NA,NA
+"929",929,"coffee","baking powder","frozen vegetables","abrasive cleaner","butter","frozen meals",NA,NA,NA,NA,NA,NA
+"930",930,"cake bar","grapes","coffee","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"931",931,"butter","coffee","baking powder","frozen vegetables","honey","frozen meals",NA,NA,NA,NA,NA,NA
+"932",932,"grapes","frozen meals","coffee","fish","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"933",933,"coffee","fish","ice cream","grapes","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"934",934,"ice cream","frozen vegetables","frozen meals","coffee","grapes",NA,NA,NA,NA,NA,NA,NA
+"935",935,"abrasive cleaner","ice cream","grapes","coffee","baking powder","frozen meals",NA,NA,NA,NA,NA,NA
+"936",936,"frozen meals","butter","coffee","ice cream","abrasive cleaner","frozen vegetables",NA,NA,NA,NA,NA,NA
+"937",937,"domestic eggs","fish","cake bar","baking powder","coffee","butter",NA,NA,NA,NA,NA,NA
+"938",938,"fish","grapes","butter","frozen meals","ice cream","cake bar",NA,NA,NA,NA,NA,NA
+"939",939,"frozen meals","butter","baking powder","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"940",940,"abrasive cleaner","butter","coffee","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"941",941,"baking powder","coffee","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"942",942,"ice cream","abrasive cleaner","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"943",943,"butter","baking powder","coffee","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"944",944,"frozen vegetables","abrasive cleaner","ice cream","butter","coffee",NA,NA,NA,NA,NA,NA,NA
+"945",945,"baking powder","ice cream","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"946",946,"ice cream","frozen vegetables","coffee","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"947",947,"honey","fish","abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA
+"948",948,"butter","frozen meals","fish","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"949",949,"coffee","honey","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"950",950,"honey","frozen meals","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"951",951,"abrasive cleaner","frozen vegetables","baking powder","butter","domestic eggs",NA,NA,NA,NA,NA,NA,NA
+"952",952,"frozen meals","domestic eggs","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"953",953,"ice cream","cake bar","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"954",954,"baking powder","domestic eggs","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"955",955,"coffee","butter","baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"956",956,"frozen vegetables","frozen meals","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"957",957,"butter","fish","frozen meals","baking powder","ice cream",NA,NA,NA,NA,NA,NA,NA
+"958",958,"butter","baking powder","frozen meals","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"959",959,"baking powder","domestic eggs","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"960",960,"fish","frozen vegetables","frozen meals","baking powder","butter",NA,NA,NA,NA,NA,NA,NA
+"961",961,"butter","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"962",962,"butter","coffee","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"963",963,"butter","coffee","domestic eggs","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"964",964,"fish","frozen meals","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"965",965,"baking powder","cake bar","butter","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"966",966,"domestic eggs","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"967",967,"frozen meals","fish","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"968",968,"baking powder","frozen meals","domestic eggs","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"969",969,"fish","frozen meals","domestic eggs","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"970",970,"butter","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"971",971,"frozen meals","frozen vegetables","baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"972",972,"coffee","baking powder","butter","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"973",973,"fish","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"974",974,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"975",975,"frozen vegetables","abrasive cleaner","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"976",976,"fish","coffee","frozen meals","ice cream","honey",NA,NA,NA,NA,NA,NA,NA
+"977",977,"coffee","butter","baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"978",978,"honey","frozen meals","ice cream","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"979",979,"frozen vegetables","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"980",980,"honey","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"981",981,"honey","domestic eggs","frozen meals","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"982",982,"frozen vegetables","domestic eggs","fish","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"983",983,"coffee","domestic eggs","butter","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"984",984,"butter","coffee","baking powder","ice cream","fish","frozen meals",NA,NA,NA,NA,NA,NA
+"985",985,"baking powder","butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"986",986,"baking powder","domestic eggs","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"987",987,"coffee","ice cream","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"988",988,"frozen meals","baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"989",989,"butter","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"990",990,"butter","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"991",991,"frozen meals","cake bar","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"992",992,"honey","abrasive cleaner","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"993",993,"baking powder","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"994",994,"baking powder","fish","domestic eggs","cake bar","butter",NA,NA,NA,NA,NA,NA,NA
+"995",995,"ice cream","baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"996",996,"frozen vegetables","ice cream","frozen meals","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"997",997,"butter","frozen meals","coffee",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"998",998,"honey","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"999",999,"ice cream","fish","domestic eggs","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"1000",1000,"butter","baking powder","cake bar","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"1001",1001,"coffee","baking powder","fish","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1002",1002,"abrasive cleaner","honey","frozen vegetables","fish","ice cream",NA,NA,NA,NA,NA,NA,NA
+"1003",1003,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1004",1004,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1005",1005,"abrasive cleaner","coffee","fish","butter","ice cream","baking powder","frozen meals",NA,NA,NA,NA,NA
+"1006",1006,"grapes","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1007",1007,"butter","coffee","baking powder","fish","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"1008",1008,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1009",1009,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1010",1010,"baking powder","butter","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1011",1011,"butter","grapes","baking powder","cake bar","fish",NA,NA,NA,NA,NA,NA,NA
+"1012",1012,"baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1013",1013,"butter","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1014",1014,"ice cream","grapes","domestic eggs","honey","fish",NA,NA,NA,NA,NA,NA,NA
+"1015",1015,"butter","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1016",1016,"grapes","ice cream","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1017",1017,"abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1018",1018,"frozen vegetables","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1019",1019,"frozen meals","butter","frozen vegetables","abrasive cleaner","ice cream",NA,NA,NA,NA,NA,NA,NA
+"1020",1020,"fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1021",1021,"baking powder","abrasive cleaner","grapes","cake bar","butter","coffee","frozen meals",NA,NA,NA,NA,NA
+"1022",1022,"butter","abrasive cleaner","coffee","domestic eggs","baking powder","frozen meals",NA,NA,NA,NA,NA,NA
+"1023",1023,"cake bar","butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1024",1024,"baking powder","coffee","butter","abrasive cleaner","fish","frozen meals",NA,NA,NA,NA,NA,NA
+"1025",1025,"frozen meals","baking powder","coffee","butter","ice cream",NA,NA,NA,NA,NA,NA,NA
+"1026",1026,"domestic eggs","grapes","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1027",1027,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1028",1028,"frozen meals","cake bar","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1029",1029,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1030",1030,"ice cream","abrasive cleaner","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1031",1031,"butter","coffee","frozen vegetables","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1032",1032,"grapes","honey","fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1033",1033,"frozen meals","fish","frozen vegetables","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"1034",1034,"grapes","domestic eggs","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1035",1035,"baking powder","grapes","fish","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1036",1036,"abrasive cleaner","butter","frozen vegetables","grapes","domestic eggs",NA,NA,NA,NA,NA,NA,NA
+"1037",1037,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1038",1038,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1039",1039,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1040",1040,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1041",1041,"ice cream","grapes","abrasive cleaner","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1042",1042,"frozen vegetables","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1043",1043,"butter","coffee","domestic eggs","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1044",1044,"frozen vegetables","domestic eggs","abrasive cleaner","honey","fish",NA,NA,NA,NA,NA,NA,NA
+"1045",1045,"coffee","ice cream","butter","frozen vegetables","domestic eggs","fish","frozen meals",NA,NA,NA,NA,NA
+"1046",1046,"coffee","butter","baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1047",1047,"cake bar","ice cream","abrasive cleaner","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"1048",1048,"domestic eggs","cake bar","baking powder","butter","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"1049",1049,"coffee","abrasive cleaner","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1050",1050,"butter","ice cream","grapes","baking powder","coffee","frozen meals",NA,NA,NA,NA,NA,NA
+"1051",1051,"butter","frozen meals","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1052",1052,"abrasive cleaner","fish","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1053",1053,"cake bar","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1054",1054,"frozen meals","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1055",1055,"frozen vegetables","butter","fish","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1056",1056,"fish","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1057",1057,"coffee","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1058",1058,"fish","butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1059",1059,"frozen meals","fish","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1060",1060,"grapes","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1061",1061,"baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1062",1062,"cake bar","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1063",1063,"butter","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1064",1064,"baking powder","butter","abrasive cleaner","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1065",1065,"fish","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1066",1066,"grapes","butter","frozen vegetables","fish",NA,NA,NA,NA,NA,NA,NA,NA
+"1067",1067,"baking powder","grapes","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1068",1068,"frozen vegetables","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1069",1069,"frozen meals","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1070",1070,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1071",1071,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1072",1072,"butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1073",1073,"grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1074",1074,"grapes","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1075",1075,"frozen vegetables","frozen meals","cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1076",1076,"abrasive cleaner","frozen vegetables","butter","baking powder","ice cream",NA,NA,NA,NA,NA,NA,NA
+"1077",1077,"grapes","baking powder","butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1078",1078,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1079",1079,"cake bar","frozen meals","ice cream","baking powder","coffee",NA,NA,NA,NA,NA,NA,NA
+"1080",1080,"baking powder","coffee","ice cream","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1081",1081,"grapes","baking powder","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1082",1082,"butter","frozen meals","grapes","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA
+"1083",1083,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1084",1084,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1085",1085,"coffee","grapes","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1086",1086,"cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1087",1087,"cake bar","butter","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1088",1088,"grapes","butter","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1089",1089,"ice cream","domestic eggs","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1090",1090,"coffee","butter","baking powder","honey","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"1091",1091,"fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1092",1092,"grapes","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1093",1093,"honey","grapes","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1094",1094,"honey","butter","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1095",1095,"coffee","honey","butter","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1096",1096,"fish","abrasive cleaner","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1097",1097,"cake bar","grapes","frozen vegetables","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1098",1098,"cake bar","butter","domestic eggs","grapes","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"1099",1099,"frozen meals","baking powder","frozen vegetables","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1100",1100,"grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1101",1101,"butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1102",1102,"honey","grapes","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1103",1103,"cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1104",1104,"fish","butter","domestic eggs","cake bar","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"1105",1105,"baking powder","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1106",1106,"butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1107",1107,"fish","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1108",1108,"abrasive cleaner","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1109",1109,"baking powder","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1110",1110,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1111",1111,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1112",1112,"baking powder","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1113",1113,"abrasive cleaner","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1114",1114,"coffee","cake bar","domestic eggs","frozen meals","baking powder",NA,NA,NA,NA,NA,NA,NA
+"1115",1115,"domestic eggs","ice cream","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1116",1116,"abrasive cleaner","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1117",1117,"coffee","fish","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1118",1118,"baking powder","domestic eggs","frozen meals","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"1119",1119,"butter","frozen meals","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1120",1120,"cake bar","baking powder","frozen meals","grapes","fish",NA,NA,NA,NA,NA,NA,NA
+"1121",1121,"frozen meals","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1122",1122,"frozen vegetables","abrasive cleaner","cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1123",1123,"coffee","frozen vegetables","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1124",1124,"ice cream","frozen meals","frozen vegetables","domestic eggs","grapes",NA,NA,NA,NA,NA,NA,NA
+"1125",1125,"coffee","frozen meals","honey","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"1126",1126,"grapes","coffee","fish","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1127",1127,"frozen vegetables","grapes","domestic eggs","fish","cake bar",NA,NA,NA,NA,NA,NA,NA
+"1128",1128,"fish","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1129",1129,"grapes","frozen meals","coffee","cake bar","fish",NA,NA,NA,NA,NA,NA,NA
+"1130",1130,"cake bar","domestic eggs","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1131",1131,"abrasive cleaner","cake bar","domestic eggs","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"1132",1132,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1133",1133,"abrasive cleaner","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1134",1134,"grapes","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1135",1135,"fish","honey","frozen meals","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"1136",1136,"baking powder","fish","frozen vegetables","frozen meals","butter","domestic eggs",NA,NA,NA,NA,NA,NA
+"1137",1137,"fish","cake bar","frozen vegetables","coffee","frozen meals","honey",NA,NA,NA,NA,NA,NA
+"1138",1138,"frozen meals","cake bar","domestic eggs","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA
+"1139",1139,"fish","butter","frozen meals","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA
+"1140",1140,"domestic eggs","abrasive cleaner","coffee","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1141",1141,"coffee","fish","ice cream","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1142",1142,"cake bar","frozen vegetables","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA
+"1143",1143,"coffee","butter","baking powder","frozen vegetables","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA
+"1144",1144,"coffee","frozen meals","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1145",1145,"butter","coffee","domestic eggs","ice cream","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"1146",1146,"honey","abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1147",1147,"fish","grapes","baking powder","abrasive cleaner","butter",NA,NA,NA,NA,NA,NA,NA
+"1148",1148,"honey","abrasive cleaner","coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1149",1149,"frozen vegetables","coffee","baking powder","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1150",1150,"frozen meals","ice cream","domestic eggs","coffee","fish","honey",NA,NA,NA,NA,NA,NA
+"1151",1151,"domestic eggs","fish","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1152",1152,"fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1153",1153,"coffee","frozen meals","butter","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"1154",1154,"frozen meals","grapes","abrasive cleaner","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"1155",1155,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1156",1156,"frozen vegetables","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1157",1157,"butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1158",1158,"abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1159",1159,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1160",1160,"baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1161",1161,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1162",1162,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1163",1163,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1164",1164,"coffee","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1165",1165,"butter","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1166",1166,"cake bar","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1167",1167,"ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1168",1168,"frozen vegetables","frozen meals","honey","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA
+"1169",1169,"coffee","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1170",1170,"frozen meals","frozen vegetables","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1171",1171,"butter","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1172",1172,"fish","frozen meals","ice cream","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"1173",1173,"baking powder","butter","frozen meals","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"1174",1174,"cake bar","coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1175",1175,"baking powder","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1176",1176,"butter","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1177",1177,"grapes","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1178",1178,"honey","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1179",1179,"baking powder","cake bar","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1180",1180,"fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1181",1181,"grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1182",1182,"domestic eggs","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1183",1183,"cake bar","frozen meals","ice cream","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"1184",1184,"butter","coffee","abrasive cleaner","ice cream","baking powder","fish","frozen meals",NA,NA,NA,NA,NA
+"1185",1185,"ice cream","baking powder","coffee","butter","grapes","frozen meals",NA,NA,NA,NA,NA,NA
+"1186",1186,"domestic eggs","coffee","frozen meals","abrasive cleaner","fish","cake bar",NA,NA,NA,NA,NA,NA
+"1187",1187,"frozen vegetables","baking powder","cake bar","abrasive cleaner","ice cream","butter",NA,NA,NA,NA,NA,NA
+"1188",1188,"baking powder","butter","honey","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA
+"1189",1189,"coffee","butter","fish","domestic eggs","baking powder","frozen vegetables","frozen meals",NA,NA,NA,NA,NA
+"1190",1190,"frozen vegetables","honey","cake bar","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA
+"1191",1191,"fish","ice cream","honey","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1192",1192,"abrasive cleaner","domestic eggs","fish","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"1193",1193,"coffee","butter","grapes","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1194",1194,"frozen vegetables","baking powder","domestic eggs","butter","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA
+"1195",1195,"domestic eggs","ice cream","frozen meals","coffee","fish",NA,NA,NA,NA,NA,NA,NA
+"1196",1196,"coffee","butter","baking powder","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1197",1197,"baking powder","cake bar","butter","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA
+"1198",1198,"domestic eggs","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1199",1199,"honey","abrasive cleaner","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1200",1200,"butter","frozen vegetables","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1201",1201,"frozen vegetables","baking powder","grapes","butter","coffee","honey","frozen meals",NA,NA,NA,NA,NA
+"1202",1202,"butter","fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1203",1203,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1204",1204,"cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1205",1205,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1206",1206,"frozen vegetables","ice cream","honey","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"1207",1207,"ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1208",1208,"coffee","cake bar","frozen vegetables","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA
+"1209",1209,"coffee","fish","frozen meals","honey","abrasive cleaner","grapes",NA,NA,NA,NA,NA,NA
+"1210",1210,"baking powder","frozen vegetables","honey","coffee","frozen meals","butter",NA,NA,NA,NA,NA,NA
+"1211",1211,"frozen vegetables","frozen meals","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1212",1212,"grapes","frozen vegetables","baking powder","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA
+"1213",1213,"frozen vegetables","butter","coffee","abrasive cleaner","ice cream","fish","frozen meals",NA,NA,NA,NA,NA
+"1214",1214,"frozen vegetables","coffee","fish","grapes","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1215",1215,"fish","frozen meals","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1216",1216,"baking powder","coffee","butter","grapes","cake bar","frozen meals",NA,NA,NA,NA,NA,NA
+"1217",1217,"baking powder","butter","grapes","frozen vegetables","cake bar","frozen meals","ice cream",NA,NA,NA,NA,NA
+"1218",1218,"ice cream","grapes","honey","butter","cake bar",NA,NA,NA,NA,NA,NA,NA
+"1219",1219,"honey","ice cream","grapes","domestic eggs","butter","frozen vegetables","baking powder",NA,NA,NA,NA,NA
+"1220",1220,"fish","butter","baking powder","frozen meals","frozen vegetables","coffee",NA,NA,NA,NA,NA,NA
+"1221",1221,"cake bar","butter","frozen meals","ice cream","honey",NA,NA,NA,NA,NA,NA,NA
+"1222",1222,"coffee","baking powder","frozen vegetables","abrasive cleaner","butter","frozen meals",NA,NA,NA,NA,NA,NA
+"1223",1223,"cake bar","grapes","coffee","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1224",1224,"butter","coffee","baking powder","frozen vegetables","honey","frozen meals",NA,NA,NA,NA,NA,NA
+"1225",1225,"grapes","frozen meals","coffee","fish","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"1226",1226,"coffee","fish","ice cream","grapes","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1227",1227,"ice cream","frozen vegetables","frozen meals","coffee","grapes",NA,NA,NA,NA,NA,NA,NA
+"1228",1228,"abrasive cleaner","ice cream","grapes","coffee","baking powder","frozen meals",NA,NA,NA,NA,NA,NA
+"1229",1229,"frozen meals","butter","coffee","ice cream","abrasive cleaner","frozen vegetables",NA,NA,NA,NA,NA,NA
+"1230",1230,"domestic eggs","fish","cake bar","baking powder","coffee","butter","frozen meals",NA,NA,NA,NA,NA
+"1231",1231,"fish","grapes","butter","frozen meals","ice cream","cake bar",NA,NA,NA,NA,NA,NA
+"1232",1232,"frozen meals","butter","baking powder","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"1233",1233,"abrasive cleaner","butter","coffee","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1234",1234,"frozen meals","fish","frozen vegetables","coffee","cake bar","baking powder",NA,NA,NA,NA,NA,NA
+"1235",1235,"butter","fish","abrasive cleaner","cake bar","ice cream","coffee","frozen meals",NA,NA,NA,NA,NA
+"1236",1236,"abrasive cleaner","cake bar","grapes","frozen vegetables","baking powder","butter",NA,NA,NA,NA,NA,NA
+"1237",1237,"grapes","baking powder","cake bar","butter","frozen meals","frozen vegetables",NA,NA,NA,NA,NA,NA
+"1238",1238,"fish","frozen meals","coffee","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"1239",1239,"frozen vegetables","abrasive cleaner","cake bar","frozen meals","coffee",NA,NA,NA,NA,NA,NA,NA
+"1240",1240,"coffee","cake bar","fish","frozen meals","honey",NA,NA,NA,NA,NA,NA,NA
+"1241",1241,"butter","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1242",1242,"butter","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1243",1243,"frozen meals","cake bar","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1244",1244,"honey","abrasive cleaner","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1245",1245,"baking powder","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1246",1246,"baking powder","fish","domestic eggs","cake bar","butter",NA,NA,NA,NA,NA,NA,NA
+"1247",1247,"ice cream","baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1248",1248,"frozen vegetables","ice cream","frozen meals","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"1249",1249,"butter","frozen meals","coffee",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1250",1250,"honey","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1251",1251,"ice cream","fish","domestic eggs","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"1252",1252,"butter","baking powder","cake bar","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"1253",1253,"coffee","baking powder","fish","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1254",1254,"abrasive cleaner","honey","frozen vegetables","fish","ice cream",NA,NA,NA,NA,NA,NA,NA
+"1255",1255,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1256",1256,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1257",1257,"abrasive cleaner","coffee","fish","butter","ice cream","baking powder","frozen meals",NA,NA,NA,NA,NA
+"1258",1258,"grapes","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1259",1259,"butter","coffee","baking powder","fish","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"1260",1260,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1261",1261,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1262",1262,"baking powder","butter","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1263",1263,"butter","grapes","baking powder","cake bar","fish",NA,NA,NA,NA,NA,NA,NA
+"1264",1264,"baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1265",1265,"butter","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1266",1266,"ice cream","grapes","domestic eggs","honey","fish",NA,NA,NA,NA,NA,NA,NA
+"1267",1267,"butter","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1268",1268,"grapes","ice cream","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1269",1269,"abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1270",1270,"frozen vegetables","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1271",1271,"frozen meals","butter","frozen vegetables","abrasive cleaner","ice cream",NA,NA,NA,NA,NA,NA,NA
+"1272",1272,"fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1273",1273,"baking powder","abrasive cleaner","grapes","cake bar","butter","coffee","frozen meals",NA,NA,NA,NA,NA
+"1274",1274,"butter","abrasive cleaner","coffee","domestic eggs","baking powder","frozen meals",NA,NA,NA,NA,NA,NA
+"1275",1275,"cake bar","butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1276",1276,"baking powder","coffee","butter","abrasive cleaner","fish","frozen meals",NA,NA,NA,NA,NA,NA
+"1277",1277,"frozen meals","baking powder","coffee","butter","ice cream",NA,NA,NA,NA,NA,NA,NA
+"1278",1278,"domestic eggs","grapes","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1279",1279,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1280",1280,"frozen meals","cake bar","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1281",1281,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1282",1282,"ice cream","abrasive cleaner","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1283",1283,"butter","coffee","frozen vegetables","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1284",1284,"grapes","honey","fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1285",1285,"frozen meals","fish","frozen vegetables","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"1286",1286,"grapes","domestic eggs","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1287",1287,"baking powder","grapes","fish","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1288",1288,"abrasive cleaner","butter","frozen vegetables","grapes","domestic eggs",NA,NA,NA,NA,NA,NA,NA
+"1289",1289,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1290",1290,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1291",1291,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1292",1292,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1293",1293,"ice cream","grapes","abrasive cleaner","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1294",1294,"frozen vegetables","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1295",1295,"butter","coffee","domestic eggs","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1296",1296,"frozen vegetables","domestic eggs","abrasive cleaner","honey","fish",NA,NA,NA,NA,NA,NA,NA
+"1297",1297,"coffee","ice cream","butter","frozen vegetables","domestic eggs","fish","frozen meals",NA,NA,NA,NA,NA
+"1298",1298,"coffee","butter","baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1299",1299,"cake bar","ice cream","abrasive cleaner","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"1300",1300,"domestic eggs","cake bar","baking powder","butter","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"1301",1301,"coffee","abrasive cleaner","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1302",1302,"butter","ice cream","grapes","baking powder","coffee","frozen meals",NA,NA,NA,NA,NA,NA
+"1303",1303,"butter","frozen meals","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1304",1304,"abrasive cleaner","fish","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1305",1305,"cake bar","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1306",1306,"frozen meals","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1307",1307,"frozen vegetables","butter","fish","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1308",1308,"fish","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1309",1309,"coffee","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1310",1310,"fish","butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1311",1311,"frozen meals","fish","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1312",1312,"grapes","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1313",1313,"baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1314",1314,"cake bar","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1315",1315,"butter","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1316",1316,"baking powder","butter","abrasive cleaner","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1317",1317,"fish","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1318",1318,"grapes","butter","frozen vegetables","fish",NA,NA,NA,NA,NA,NA,NA,NA
+"1319",1319,"baking powder","grapes","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1320",1320,"frozen vegetables","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1321",1321,"frozen meals","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1322",1322,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1323",1323,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1324",1324,"butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1325",1325,"grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1326",1326,"grapes","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1327",1327,"frozen vegetables","frozen meals","cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1328",1328,"abrasive cleaner","frozen vegetables","butter","baking powder","ice cream",NA,NA,NA,NA,NA,NA,NA
+"1329",1329,"grapes","baking powder","butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1330",1330,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1331",1331,"cake bar","frozen meals","ice cream","baking powder","coffee",NA,NA,NA,NA,NA,NA,NA
+"1332",1332,"baking powder","coffee","ice cream","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1333",1333,"grapes","baking powder","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1334",1334,"butter","frozen meals","grapes","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA
+"1335",1335,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1336",1336,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1337",1337,"coffee","grapes","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1338",1338,"cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1339",1339,"cake bar","butter","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1340",1340,"grapes","butter","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1341",1341,"ice cream","domestic eggs","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1342",1342,"coffee","butter","baking powder","honey","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"1343",1343,"fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1344",1344,"grapes","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1345",1345,"honey","grapes","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1346",1346,"honey","butter","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1347",1347,"coffee","honey","butter","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1348",1348,"fish","abrasive cleaner","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1349",1349,"cake bar","grapes","frozen vegetables","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1350",1350,"cake bar","butter","domestic eggs","grapes","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"1351",1351,"frozen meals","baking powder","frozen vegetables","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1352",1352,"grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1353",1353,"butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1354",1354,"honey","grapes","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1355",1355,"cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1356",1356,"fish","butter","domestic eggs","cake bar","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"1357",1357,"baking powder","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1358",1358,"butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1359",1359,"fish","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1360",1360,"abrasive cleaner","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1361",1361,"baking powder","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1362",1362,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1363",1363,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1364",1364,"baking powder","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1365",1365,"abrasive cleaner","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1366",1366,"coffee","cake bar","domestic eggs","frozen meals","baking powder",NA,NA,NA,NA,NA,NA,NA
+"1367",1367,"domestic eggs","ice cream","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1368",1368,"abrasive cleaner","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1369",1369,"coffee","fish","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1370",1370,"baking powder","domestic eggs","frozen meals","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"1371",1371,"butter","frozen meals","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1372",1372,"cake bar","baking powder","frozen meals","grapes","fish",NA,NA,NA,NA,NA,NA,NA
+"1373",1373,"frozen meals","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1374",1374,"frozen vegetables","abrasive cleaner","cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1375",1375,"coffee","frozen vegetables","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1376",1376,"ice cream","frozen meals","frozen vegetables","domestic eggs","grapes",NA,NA,NA,NA,NA,NA,NA
+"1377",1377,"coffee","frozen meals","honey","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"1378",1378,"grapes","coffee","fish","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1379",1379,"frozen vegetables","grapes","domestic eggs","fish","cake bar",NA,NA,NA,NA,NA,NA,NA
+"1380",1380,"fish","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1381",1381,"grapes","frozen meals","coffee","cake bar","fish",NA,NA,NA,NA,NA,NA,NA
+"1382",1382,"cake bar","domestic eggs","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1383",1383,"abrasive cleaner","cake bar","domestic eggs","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"1384",1384,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1385",1385,"abrasive cleaner","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1386",1386,"grapes","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1387",1387,"fish","honey","frozen meals","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"1388",1388,"baking powder","fish","frozen vegetables","frozen meals","butter","domestic eggs",NA,NA,NA,NA,NA,NA
+"1389",1389,"fish","cake bar","frozen vegetables","coffee","frozen meals","honey",NA,NA,NA,NA,NA,NA
+"1390",1390,"frozen meals","cake bar","domestic eggs","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA
+"1391",1391,"fish","butter","frozen meals","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA
+"1392",1392,"domestic eggs","abrasive cleaner","coffee","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1393",1393,"coffee","fish","ice cream","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1394",1394,"cake bar","frozen vegetables","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA
+"1395",1395,"coffee","butter","baking powder","frozen vegetables","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA
+"1396",1396,"coffee","frozen meals","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1397",1397,"butter","coffee","domestic eggs","ice cream","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"1398",1398,"honey","abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1399",1399,"fish","grapes","baking powder","abrasive cleaner","butter",NA,NA,NA,NA,NA,NA,NA
+"1400",1400,"honey","abrasive cleaner","coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1401",1401,"frozen vegetables","coffee","baking powder","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1402",1402,"frozen meals","ice cream","domestic eggs","coffee","fish","honey",NA,NA,NA,NA,NA,NA
+"1403",1403,"domestic eggs","fish","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1404",1404,"fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1405",1405,"coffee","frozen meals","butter","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"1406",1406,"frozen meals","grapes","abrasive cleaner","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"1407",1407,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1408",1408,"frozen vegetables","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1409",1409,"butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1410",1410,"abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1411",1411,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1412",1412,"baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1413",1413,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1414",1414,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1415",1415,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1416",1416,"coffee","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1417",1417,"butter","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1418",1418,"cake bar","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1419",1419,"ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1420",1420,"frozen vegetables","frozen meals","honey","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA
+"1421",1421,"coffee","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1422",1422,"frozen meals","frozen vegetables","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1423",1423,"butter","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1424",1424,"fish","frozen meals","ice cream","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"1425",1425,"baking powder","butter","frozen meals","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"1426",1426,"cake bar","coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1427",1427,"baking powder","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1428",1428,"butter","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1429",1429,"grapes","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1430",1430,"honey","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1431",1431,"baking powder","cake bar","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1432",1432,"fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1433",1433,"grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1434",1434,"domestic eggs","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1435",1435,"cake bar","frozen meals","ice cream","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"1436",1436,"butter","coffee","abrasive cleaner","ice cream","baking powder","fish","frozen meals",NA,NA,NA,NA,NA
+"1437",1437,"ice cream","baking powder","coffee","butter","grapes","frozen meals",NA,NA,NA,NA,NA,NA
+"1438",1438,"domestic eggs","coffee","frozen meals","abrasive cleaner","fish","cake bar",NA,NA,NA,NA,NA,NA
+"1439",1439,"frozen vegetables","baking powder","cake bar","abrasive cleaner","ice cream","butter",NA,NA,NA,NA,NA,NA
+"1440",1440,"baking powder","butter","honey","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA
+"1441",1441,"coffee","butter","fish","domestic eggs","baking powder","frozen vegetables","frozen meals",NA,NA,NA,NA,NA
+"1442",1442,"frozen vegetables","honey","cake bar","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA
+"1443",1443,"fish","ice cream","honey","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1444",1444,"abrasive cleaner","domestic eggs","fish","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"1445",1445,"coffee","butter","grapes","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1446",1446,"frozen vegetables","baking powder","domestic eggs","butter","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA
+"1447",1447,"domestic eggs","ice cream","frozen meals","coffee","fish",NA,NA,NA,NA,NA,NA,NA
+"1448",1448,"coffee","butter","baking powder","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1449",1449,"baking powder","cake bar","butter","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA
+"1450",1450,"domestic eggs","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1451",1451,"honey","abrasive cleaner","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1452",1452,"butter","frozen vegetables","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1453",1453,"frozen vegetables","baking powder","grapes","butter","coffee","honey","frozen meals",NA,NA,NA,NA,NA
+"1454",1454,"butter","fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1455",1455,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1456",1456,"cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1457",1457,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1458",1458,"frozen vegetables","ice cream","honey","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"1459",1459,"ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1460",1460,"coffee","cake bar","frozen vegetables","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA
+"1461",1461,"coffee","fish","frozen meals","honey","abrasive cleaner","grapes",NA,NA,NA,NA,NA,NA
+"1462",1462,"baking powder","frozen vegetables","honey","coffee","frozen meals","butter",NA,NA,NA,NA,NA,NA
+"1463",1463,"frozen vegetables","frozen meals","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1464",1464,"grapes","frozen vegetables","baking powder","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA
+"1465",1465,"frozen vegetables","butter","coffee","abrasive cleaner","ice cream","fish","frozen meals",NA,NA,NA,NA,NA
+"1466",1466,"frozen vegetables","coffee","fish","grapes","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1467",1467,"fish","frozen meals","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1468",1468,"baking powder","coffee","butter","grapes","cake bar","frozen meals",NA,NA,NA,NA,NA,NA
+"1469",1469,"baking powder","butter","grapes","frozen vegetables","cake bar","frozen meals","ice cream",NA,NA,NA,NA,NA
+"1470",1470,"ice cream","grapes","honey","butter","cake bar",NA,NA,NA,NA,NA,NA,NA
+"1471",1471,"cake bar","domestic eggs","frozen meals","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1472",1472,"ice cream","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1473",1473,"butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1474",1474,"fish","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1475",1475,"domestic eggs","frozen meals","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1476",1476,"frozen meals","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1477",1477,"baking powder","frozen meals","grapes","fish",NA,NA,NA,NA,NA,NA,NA,NA
+"1478",1478,"frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1479",1479,"abrasive cleaner","cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1480",1480,"frozen vegetables","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1481",1481,"frozen meals","frozen vegetables","domestic eggs","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"1482",1482,"frozen meals","honey","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1483",1483,"coffee","fish","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1484",1484,"grapes","domestic eggs","fish","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"1485",1485,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1486",1486,"frozen meals","coffee","cake bar","fish",NA,NA,NA,NA,NA,NA,NA,NA
+"1487",1487,"domestic eggs","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1488",1488,"cake bar","domestic eggs","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1489",1489,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1490",1490,"fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1491",1491,"ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1492",1492,"honey","frozen meals","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1493",1493,"fish","frozen vegetables","frozen meals","butter","domestic eggs",NA,NA,NA,NA,NA,NA,NA
+"1494",1494,"cake bar","frozen vegetables","coffee","frozen meals","honey",NA,NA,NA,NA,NA,NA,NA
+"1495",1495,"cake bar","domestic eggs","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1496",1496,"butter","frozen meals","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1497",1497,"abrasive cleaner","coffee","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1498",1498,"fish","ice cream","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1499",1499,"frozen vegetables","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1500",1500,"butter","baking powder","frozen vegetables","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1501",1501,"frozen meals","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1502",1502,"coffee","domestic eggs","ice cream","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1503",1503,"abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1504",1504,"grapes","baking powder","abrasive cleaner","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1505",1505,"abrasive cleaner","coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1506",1506,"coffee","baking powder","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1507",1507,"ice cream","domestic eggs","coffee","fish","honey",NA,NA,NA,NA,NA,NA,NA
+"1508",1508,"fish","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1509",1509,"frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1510",1510,"frozen meals","butter","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1511",1511,"grapes","abrasive cleaner","coffee",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1512",1512,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1513",1513,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1514",1514,"grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1515",1515,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1516",1516,"frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1517",1517,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1518",1518,"frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1519",1519,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1520",1520,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1521",1521,"baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1522",1522,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1523",1523,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1524",1524,"frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1525",1525,"frozen meals","honey","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1526",1526,"ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1527",1527,"frozen vegetables","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1528",1528,"frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1529",1529,"frozen meals","ice cream","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1530",1530,"butter","frozen meals","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1531",1531,"coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1532",1532,"cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1533",1533,"fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1534",1534,"frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1535",1535,"grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1536",1536,"cake bar","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1537",1537,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1538",1538,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1539",1539,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1540",1540,"frozen meals","ice cream","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1541",1541,"coffee","abrasive cleaner","ice cream","baking powder","fish","frozen meals",NA,NA,NA,NA,NA,NA
+"1542",1542,"baking powder","coffee","butter","grapes","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1543",1543,"coffee","frozen meals","abrasive cleaner","fish","cake bar",NA,NA,NA,NA,NA,NA,NA
+"1544",1544,"baking powder","cake bar","abrasive cleaner","ice cream","butter",NA,NA,NA,NA,NA,NA,NA
+"1545",1545,"butter","honey","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1546",1546,"butter","fish","domestic eggs","baking powder","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"1547",1547,"honey","cake bar","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1548",1548,"ice cream","honey","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1549",1549,"domestic eggs","fish","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1550",1550,"butter","grapes","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1551",1551,"baking powder","domestic eggs","butter","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA
+"1552",1552,"ice cream","frozen meals","coffee","fish",NA,NA,NA,NA,NA,NA,NA,NA
+"1553",1553,"butter","baking powder","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1554",1554,"cake bar","butter","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1555",1555,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1556",1556,"abrasive cleaner","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1557",1557,"frozen vegetables","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1558",1558,"baking powder","grapes","butter","coffee","honey","frozen meals",NA,NA,NA,NA,NA,NA
+"1559",1559,"fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1560",1560,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1561",1561,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1562",1562,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1563",1563,"ice cream","honey","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1564",1564,"baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1565",1565,"cake bar","frozen vegetables","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1566",1566,"fish","frozen meals","honey","abrasive cleaner","grapes",NA,NA,NA,NA,NA,NA,NA
+"1567",1567,"frozen vegetables","honey","coffee","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA
+"1568",1568,"frozen meals","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1569",1569,"frozen vegetables","baking powder","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1570",1570,"butter","coffee","abrasive cleaner","ice cream","fish","frozen meals",NA,NA,NA,NA,NA,NA
+"1571",1571,"coffee","fish","grapes","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1572",1572,"frozen meals","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1573",1573,"coffee","butter","grapes","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1574",1574,"butter","grapes","frozen vegetables","cake bar","frozen meals","ice cream",NA,NA,NA,NA,NA,NA
+"1575",1575,"grapes","honey","butter","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"1576",1576,"ice cream","grapes","domestic eggs","butter","frozen vegetables","baking powder",NA,NA,NA,NA,NA,NA
+"1577",1577,"butter","baking powder","frozen meals","frozen vegetables","coffee",NA,NA,NA,NA,NA,NA,NA
+"1578",1578,"butter","frozen meals","ice cream","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"1579",1579,"baking powder","frozen vegetables","abrasive cleaner","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1580",1580,"grapes","coffee","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1581",1581,"coffee","baking powder","frozen vegetables","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1582",1582,"frozen meals","coffee","fish","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"1583",1583,"fish","ice cream","grapes","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1584",1584,"frozen vegetables","frozen meals","coffee","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"1585",1585,"ice cream","grapes","coffee","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1586",1586,"butter","coffee","ice cream","abrasive cleaner","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"1587",1587,"fish","cake bar","baking powder","coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA
+"1588",1588,"baking powder","coffee","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1589",1589,"ice cream","abrasive cleaner","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1590",1590,"butter","baking powder","coffee","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1591",1591,"frozen vegetables","abrasive cleaner","ice cream","butter","coffee",NA,NA,NA,NA,NA,NA,NA
+"1592",1592,"baking powder","ice cream","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1593",1593,"ice cream","frozen vegetables","coffee","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1594",1594,"honey","fish","abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA
+"1595",1595,"butter","frozen meals","fish","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"1596",1596,"coffee","honey","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1597",1597,"honey","frozen meals","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1598",1598,"abrasive cleaner","frozen vegetables","baking powder","butter","domestic eggs",NA,NA,NA,NA,NA,NA,NA
+"1599",1599,"frozen meals","domestic eggs","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1600",1600,"ice cream","cake bar","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1601",1601,"baking powder","domestic eggs","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1602",1602,"coffee","butter","baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1603",1603,"frozen vegetables","frozen meals","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1604",1604,"butter","fish","frozen meals","baking powder","ice cream",NA,NA,NA,NA,NA,NA,NA
+"1605",1605,"butter","baking powder","frozen meals","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"1606",1606,"baking powder","domestic eggs","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1607",1607,"fish","frozen vegetables","frozen meals","baking powder","butter",NA,NA,NA,NA,NA,NA,NA
+"1608",1608,"butter","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1609",1609,"butter","coffee","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1610",1610,"butter","coffee","domestic eggs","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1611",1611,"fish","frozen meals","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1612",1612,"baking powder","cake bar","butter","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"1613",1613,"domestic eggs","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1614",1614,"frozen meals","fish","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1615",1615,"baking powder","frozen meals","domestic eggs","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1616",1616,"fish","frozen meals","domestic eggs","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"1617",1617,"butter","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1618",1618,"frozen meals","frozen vegetables","baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1619",1619,"coffee","baking powder","butter","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1620",1620,"fish","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1621",1621,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1622",1622,"frozen vegetables","abrasive cleaner","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1623",1623,"fish","coffee","frozen meals","ice cream","honey",NA,NA,NA,NA,NA,NA,NA
+"1624",1624,"coffee","butter","baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1625",1625,"honey","frozen meals","ice cream","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"1626",1626,"frozen vegetables","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1627",1627,"honey","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1628",1628,"honey","domestic eggs","frozen meals","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"1629",1629,"frozen vegetables","domestic eggs","fish","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"1630",1630,"coffee","domestic eggs","butter","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1631",1631,"butter","coffee","baking powder","ice cream","fish","frozen meals",NA,NA,NA,NA,NA,NA
+"1632",1632,"baking powder","butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1633",1633,"baking powder","domestic eggs","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1634",1634,"coffee","ice cream","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1635",1635,"frozen meals","baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1636",1636,"butter","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1637",1637,"butter","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1638",1638,"frozen meals","cake bar","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1639",1639,"honey","abrasive cleaner","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1640",1640,"baking powder","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1641",1641,"baking powder","fish","domestic eggs","cake bar","butter",NA,NA,NA,NA,NA,NA,NA
+"1642",1642,"ice cream","baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1643",1643,"frozen vegetables","ice cream","frozen meals","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"1644",1644,"butter","frozen meals","coffee",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1645",1645,"honey","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1646",1646,"ice cream","fish","domestic eggs","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"1647",1647,"butter","baking powder","cake bar","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"1648",1648,"coffee","baking powder","fish","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1649",1649,"abrasive cleaner","honey","frozen vegetables","fish","ice cream",NA,NA,NA,NA,NA,NA,NA
+"1650",1650,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1651",1651,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1652",1652,"abrasive cleaner","coffee","fish","butter","ice cream","baking powder",NA,NA,NA,NA,NA,NA
+"1653",1653,"grapes","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1654",1654,"butter","coffee","baking powder","fish","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"1655",1655,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1656",1656,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1657",1657,"baking powder","butter","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1658",1658,"butter","grapes","baking powder","cake bar","fish",NA,NA,NA,NA,NA,NA,NA
+"1659",1659,"baking powder","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1660",1660,"butter","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1661",1661,"ice cream","grapes","domestic eggs","honey","fish",NA,NA,NA,NA,NA,NA,NA
+"1662",1662,"butter","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1663",1663,"grapes","ice cream","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1664",1664,"abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1665",1665,"frozen vegetables","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1666",1666,"frozen meals","butter","frozen vegetables","abrasive cleaner","ice cream",NA,NA,NA,NA,NA,NA,NA
+"1667",1667,"fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1668",1668,"baking powder","abrasive cleaner","grapes","cake bar","butter","coffee",NA,NA,NA,NA,NA,NA
+"1669",1669,"butter","abrasive cleaner","coffee","domestic eggs","baking powder","frozen meals",NA,NA,NA,NA,NA,NA
+"1670",1670,"cake bar","butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1671",1671,"baking powder","coffee","butter","abrasive cleaner","fish","frozen meals",NA,NA,NA,NA,NA,NA
+"1672",1672,"frozen meals","baking powder","coffee","butter","ice cream",NA,NA,NA,NA,NA,NA,NA
+"1673",1673,"domestic eggs","grapes","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1674",1674,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1675",1675,"frozen meals","cake bar","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1676",1676,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1677",1677,"ice cream","abrasive cleaner","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1678",1678,"butter","coffee","frozen vegetables","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1679",1679,"grapes","honey","fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1680",1680,"frozen meals","fish","frozen vegetables","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"1681",1681,"grapes","domestic eggs","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1682",1682,"baking powder","grapes","fish","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1683",1683,"abrasive cleaner","butter","frozen vegetables","grapes","domestic eggs",NA,NA,NA,NA,NA,NA,NA
+"1684",1684,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1685",1685,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1686",1686,"butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1687",1687,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1688",1688,"ice cream","grapes","abrasive cleaner","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1689",1689,"frozen vegetables","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1690",1690,"butter","coffee","domestic eggs","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1691",1691,"frozen vegetables","domestic eggs","abrasive cleaner","honey","fish",NA,NA,NA,NA,NA,NA,NA
+"1692",1692,"coffee","ice cream","butter","frozen vegetables","domestic eggs","fish",NA,NA,NA,NA,NA,NA
+"1693",1693,"coffee","butter","baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1694",1694,"cake bar","ice cream","abrasive cleaner","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"1695",1695,"domestic eggs","cake bar","baking powder","butter","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"1696",1696,"coffee","abrasive cleaner","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1697",1697,"butter","ice cream","grapes","baking powder","coffee","frozen meals",NA,NA,NA,NA,NA,NA
+"1698",1698,"butter","frozen meals","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1699",1699,"abrasive cleaner","fish","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1700",1700,"cake bar","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1701",1701,"frozen meals","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1702",1702,"frozen vegetables","butter","fish","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1703",1703,"fish","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1704",1704,"coffee","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1705",1705,"fish","butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1706",1706,"frozen meals","fish","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1707",1707,"grapes","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1708",1708,"baking powder","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1709",1709,"cake bar","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1710",1710,"butter","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1711",1711,"baking powder","butter","abrasive cleaner","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1712",1712,"fish","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1713",1713,"grapes","butter","frozen vegetables","fish",NA,NA,NA,NA,NA,NA,NA,NA
+"1714",1714,"baking powder","grapes","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1715",1715,"frozen vegetables","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1716",1716,"frozen meals","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1717",1717,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1718",1718,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1719",1719,"butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1720",1720,"grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1721",1721,"grapes","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1722",1722,"frozen vegetables","frozen meals","cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1723",1723,"abrasive cleaner","frozen vegetables","butter","baking powder","ice cream",NA,NA,NA,NA,NA,NA,NA
+"1724",1724,"grapes","baking powder","butter","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1725",1725,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1726",1726,"cake bar","frozen meals","ice cream","baking powder","coffee",NA,NA,NA,NA,NA,NA,NA
+"1727",1727,"baking powder","coffee","ice cream","cake bar","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1728",1728,"grapes","baking powder","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1729",1729,"butter","frozen meals","grapes","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA
+"1730",1730,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1731",1731,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1732",1732,"coffee","grapes","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1733",1733,"cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1734",1734,"cake bar","butter","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1735",1735,"grapes","butter","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1736",1736,"ice cream","domestic eggs","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1737",1737,"coffee","butter","baking powder","honey","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"1738",1738,"fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1739",1739,"grapes","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1740",1740,"honey","grapes","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1741",1741,"honey","butter","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1742",1742,"coffee","honey","butter","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1743",1743,"fish","abrasive cleaner","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1744",1744,"cake bar","grapes","frozen vegetables","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1745",1745,"cake bar","butter","domestic eggs","grapes","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"1746",1746,"frozen meals","baking powder","frozen vegetables","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1747",1747,"grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1748",1748,"butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1749",1749,"honey","grapes","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1750",1750,"cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1751",1751,"fish","butter","domestic eggs","cake bar","frozen vegetables",NA,NA,NA,NA,NA,NA,NA
+"1752",1752,"baking powder","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1753",1753,"butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1754",1754,"fish","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1755",1755,"abrasive cleaner","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1756",1756,"baking powder","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1757",1757,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1758",1758,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1759",1759,"baking powder","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1760",1760,"abrasive cleaner","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1761",1761,"coffee","cake bar","domestic eggs","frozen meals","baking powder",NA,NA,NA,NA,NA,NA,NA
+"1762",1762,"domestic eggs","ice cream","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1763",1763,"abrasive cleaner","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1764",1764,"coffee","fish","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1765",1765,"baking powder","domestic eggs","frozen meals","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"1766",1766,"butter","frozen meals","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1767",1767,"cake bar","baking powder","frozen meals","grapes","fish",NA,NA,NA,NA,NA,NA,NA
+"1768",1768,"frozen meals","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1769",1769,"frozen vegetables","abrasive cleaner","cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1770",1770,"coffee","frozen vegetables","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1771",1771,"ice cream","frozen meals","frozen vegetables","domestic eggs","grapes",NA,NA,NA,NA,NA,NA,NA
+"1772",1772,"coffee","frozen meals","honey","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"1773",1773,"grapes","coffee","fish","honey","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1774",1774,"frozen vegetables","grapes","domestic eggs","fish","cake bar",NA,NA,NA,NA,NA,NA,NA
+"1775",1775,"fish","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1776",1776,"grapes","frozen meals","coffee","cake bar","fish",NA,NA,NA,NA,NA,NA,NA
+"1777",1777,"cake bar","domestic eggs","grapes","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1778",1778,"abrasive cleaner","cake bar","domestic eggs","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"1779",1779,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1780",1780,"abrasive cleaner","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1781",1781,"grapes","ice cream","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1782",1782,"fish","honey","frozen meals","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"1783",1783,"baking powder","fish","frozen vegetables","frozen meals","butter","domestic eggs",NA,NA,NA,NA,NA,NA
+"1784",1784,"fish","cake bar","frozen vegetables","coffee","frozen meals","honey",NA,NA,NA,NA,NA,NA
+"1785",1785,"frozen meals","cake bar","domestic eggs","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA
+"1786",1786,"fish","butter","frozen meals","ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA
+"1787",1787,"domestic eggs","abrasive cleaner","coffee","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1788",1788,"coffee","fish","ice cream","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1789",1789,"cake bar","frozen vegetables","baking powder","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA
+"1790",1790,"coffee","butter","baking powder","frozen vegetables","domestic eggs","frozen meals",NA,NA,NA,NA,NA,NA
+"1791",1791,"coffee","frozen meals","grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1792",1792,"butter","coffee","domestic eggs","ice cream","frozen vegetables","frozen meals",NA,NA,NA,NA,NA,NA
+"1793",1793,"honey","abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1794",1794,"fish","grapes","baking powder","abrasive cleaner","butter",NA,NA,NA,NA,NA,NA,NA
+"1795",1795,"honey","abrasive cleaner","coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1796",1796,"frozen vegetables","coffee","baking powder","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1797",1797,"frozen meals","ice cream","domestic eggs","coffee","fish","honey",NA,NA,NA,NA,NA,NA
+"1798",1798,"domestic eggs","fish","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1799",1799,"fish","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1800",1800,"coffee","frozen meals","butter","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"1801",1801,"frozen meals","grapes","abrasive cleaner","coffee",NA,NA,NA,NA,NA,NA,NA,NA
+"1802",1802,"frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1803",1803,"frozen vegetables","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1804",1804,"butter","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1805",1805,"abrasive cleaner","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1806",1806,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1807",1807,"baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1808",1808,"coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1809",1809,"abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1810",1810,"domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1811",1811,"coffee","baking powder","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1812",1812,"butter","honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1813",1813,"cake bar","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1814",1814,"ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1815",1815,"frozen vegetables","frozen meals","honey","domestic eggs",NA,NA,NA,NA,NA,NA,NA,NA
+"1816",1816,"coffee","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1817",1817,"frozen meals","frozen vegetables","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1818",1818,"butter","frozen meals","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1819",1819,"fish","frozen meals","ice cream","grapes",NA,NA,NA,NA,NA,NA,NA,NA
+"1820",1820,"baking powder","butter","frozen meals","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"1821",1821,"cake bar","coffee","butter","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA
+"1822",1822,"baking powder","cake bar",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1823",1823,"butter","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1824",1824,"grapes","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1825",1825,"honey","grapes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1826",1826,"baking powder","cake bar","fish",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1827",1827,"fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1828",1828,"grapes","butter",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1829",1829,"domestic eggs","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1830",1830,"cake bar","frozen meals","ice cream","honey",NA,NA,NA,NA,NA,NA,NA,NA
+"1831",1831,"butter","coffee","abrasive cleaner","ice cream","baking powder","fish",NA,NA,NA,NA,NA,NA
+"1832",1832,"ice cream","baking powder","coffee","butter","grapes","frozen meals",NA,NA,NA,NA,NA,NA
+"1833",1833,"domestic eggs","coffee","frozen meals","abrasive cleaner","fish","cake bar",NA,NA,NA,NA,NA,NA
+"1834",1834,"frozen vegetables","baking powder","cake bar","abrasive cleaner","ice cream","butter",NA,NA,NA,NA,NA,NA
+"1835",1835,"baking powder","butter","honey","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA,NA
+"1836",1836,"coffee","butter","fish","domestic eggs","baking powder","frozen vegetables",NA,NA,NA,NA,NA,NA
+"1837",1837,"frozen vegetables","honey","cake bar","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA
+"1838",1838,"fish","ice cream","honey","coffee","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1839",1839,"abrasive cleaner","domestic eggs","fish","frozen vegetables",NA,NA,NA,NA,NA,NA,NA,NA
+"1840",1840,"coffee","butter","grapes","fish","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1841",1841,"frozen vegetables","baking powder","domestic eggs","butter","abrasive cleaner",NA,NA,NA,NA,NA,NA,NA
+"1842",1842,"domestic eggs","ice cream","frozen meals","coffee","fish",NA,NA,NA,NA,NA,NA,NA
+"1843",1843,"coffee","butter","baking powder","ice cream","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1844",1844,"baking powder","cake bar","butter","fish","coffee","frozen meals",NA,NA,NA,NA,NA,NA
+"1845",1845,"domestic eggs","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1846",1846,"honey","abrasive cleaner","frozen vegetables","butter",NA,NA,NA,NA,NA,NA,NA,NA
+"1847",1847,"butter","frozen vegetables","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1848",1848,"frozen vegetables","baking powder","grapes","butter","coffee","honey",NA,NA,NA,NA,NA,NA
+"1849",1849,"butter","fish","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1850",1850,"honey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1851",1851,"cake bar","ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1852",1852,"ice cream",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1853",1853,"frozen vegetables","ice cream","honey","cake bar",NA,NA,NA,NA,NA,NA,NA,NA
+"1854",1854,"ice cream","baking powder",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1855",1855,"coffee","cake bar","frozen vegetables","baking powder","butter","frozen meals",NA,NA,NA,NA,NA,NA
+"1856",1856,"coffee","fish","frozen meals","honey","abrasive cleaner","grapes",NA,NA,NA,NA,NA,NA
+"1857",1857,"baking powder","frozen vegetables","honey","coffee","frozen meals","butter",NA,NA,NA,NA,NA,NA
+"1858",1858,"frozen vegetables","frozen meals","butter","baking powder",NA,NA,NA,NA,NA,NA,NA,NA
+"1859",1859,"grapes","frozen vegetables","baking powder","frozen meals","butter",NA,NA,NA,NA,NA,NA,NA
+"1860",1860,"frozen vegetables","butter","coffee","abrasive cleaner","ice cream","fish",NA,NA,NA,NA,NA,NA
+"1861",1861,"frozen vegetables","coffee","fish","grapes","frozen meals",NA,NA,NA,NA,NA,NA,NA
+"1862",1862,"fish","frozen meals","butter","ice cream",NA,NA,NA,NA,NA,NA,NA,NA
+"1863",1863,"baking powder","coffee","butter","grapes","cake bar","frozen meals",NA,NA,NA,NA,NA,NA

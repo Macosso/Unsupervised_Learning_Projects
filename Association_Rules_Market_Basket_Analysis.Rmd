@@ -1,0 +1,168 @@
+---
+title: "Association Rules on Market Basket"
+author: "João Cláudio Macosso"
+date: "2023-02-26"
+output:
+  html_document:
+    toc: true
+    toc_float: True
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.width=10, fig.height=6, message = F, warning = F)
+```
+
+```{r klippy, echo=FALSE, include=TRUE}
+# to allow copying the code
+klippy::klippy()
+```
+# Introduction
+In this project, we will be performing association rules using the Apriori algorithm on market basket data from Kaggle. Market basket analysis is a technique that helps in uncovering relationships between different products based on customer transactions. By analyzing these relationships, we can identify frequently co-occurring items and use this information to improve product placement, marketing strategies, and ultimately increase sales. The Apriori algorithm is a popular method for mining association rules, and we will be using it to identify interesting and meaningful associations between items in our market basket dataset. The dataset we will be using is available on Kaggle and contains transactional data from a retail store.
+
+[Data Source](https://www.kaggle.com/datasets/ashwinbadi/market-basket-analysist)
+
+
+# Libraries
+
+```{r}
+library(arules)
+library(arulesViz)
+library(arulesCBA)
+library(tidyverse)
+library(readxl)
+library(RColorBrewer)
+library(arulesViz)
+library(gridExtra)
+library(cowplot)
+library(ggpubr)
+
+```
+
+
+# EDA
+
+```{r}
+MBA <- read_excel("Data/MBA/market basket analysist.xlsx",
+                        sheet = "Worksheet",
+                        range = "A1:M1864")
+write.csv(MBA, "Data/MBA/market basket analysis.csv")
+MBA
+```
+
+```{r}
+Trans <-read.transactions("Data/MBA/market basket analysis.csv", 
+                          format = "basket", sep=",", header = TRUE)
+summary(Trans)
+```
+
+```{r}
+
+inspect(tail(Trans))
+```
+```{r}
+
+arules::itemFrequencyPlot(Trans,
+   topN=10,
+   col=brewer.pal(10,'BrBG'),
+   main='Absolute Item Frequency Plot',
+   type="absolute",
+   ylab="Item Frequency (Absolute)",
+   xlab= "Retail items",
+) 
+```
+
+# Association Rules
+
+## apriori Algorithm
+
+```{r}
+MBA_AR <- apriori(Trans, parameter = list(supp = 0.01, conf = 0.75))
+inspect(MBA_AR[1:2])
+```
+
+```{r}
+MBA_AR_data <- as(MBA_AR,"data.frame")
+head(MBA_AR_data, 6)
+```
+
+### SUPPORT
+```{r}
+inspect(sort(MBA_AR, by = "support",decreasing = TRUE )[1:5])
+```
+The association rule stating that if a customer buys coffee, they are likely to also buy frozen meals had the highest level of support, appearing 581 times which accounts for around 1.8% of all transactions in the dataset.
+
+### CONFIDENCE
+```{r}
+inspect(sort(MBA_AR, by = "confidence", decreasing = FALSE )[1:5])
+```
+The association rule {baking powder, honey} => {frozen meals} has a confidence of 0.7561, indicating that when a customer purchases baking powder and honey, there is a 75.61% probability that they will also purchase frozen meals.
+
+### LIFT
+
+```{r}
+inspect(sort(MBA_AR, by = "lift", decreasing = TRUE)[1:5])
+```
+`
+The association rule {baking powder, coffee, honey} => {frozen vegetables} has a lift of 3.16, indicating that the four items are more likely to be purchased together compared to when they are purchased with additional items or fewer items.
+
+## Visualizations
+
+### Ralationship betwwen support, confidence, and lift
+This shows the association of the items through the algorithm of support, confidence and lift
+```{r}
+plot(MBA_AR, measure=c("support","confidence"), 
+     shading="lift", engine = "plotly")
+```
+
+### Visualizations of Items as a Consequent
+
+```{r, fig.width=10, fig.height=6}
+goods <- unique(MBA$item1)[1:12]
+goods_rules_list = list()
+goods_rules_plots = list()
+for (g in goods){
+  goods_rules = apriori(data = Trans,
+                        parameter = list(supp = 0.001, conf = 0.75),
+                        appearance = list(default = "lhs", rhs = g),
+                        control = list(verbose = F))
+  goods_rules_list[[g]] = sort(goods_rules, by="support", decreasing=TRUE)
+  goods_rules_plots[[g]] = plot(head(goods_rules_list[[g]]), method="graph") + 
+    labs(title = paste(g, "as a consequent item")) +
+    theme(plot.title = element_text(size=9)) +
+    theme_bw()
+}
+
+ggarrange(plotlist = goods_rules_plots,
+          common.legend = TRUE, ncol = 3)
+
+```
+
+### Visualizations of Items as Antecedents
+```{r, fig.width=10, fig.height=6}
+goods <- unique(MBA$item1)[1:12]
+goods_ant_rules_list = list()
+goods_ant_rules_plots = list()
+for (g in goods){
+  goods_rules = apriori(data = Trans,
+                        parameter = list(supp = 0.01, conf = 0.075, minlen=2),
+                        appearance = list(default = "rhs", lhs = g),
+                        control = list(verbose = F))
+  goods_ant_rules_list[[g]] = sort(goods_rules, by="confidence", decreasing=TRUE)
+  goods_ant_rules_plots[[g]] = plot(head(goods_ant_rules_list[[g]]), method="graph") +
+    labs(title = paste(g, "as an antecedent  item")) +
+    theme(plot.title = element_text(size=9)) +
+    theme_bw()
+}
+
+ggarrange(plotlist = goods_ant_rules_plots,
+          common.legend = TRUE, ncol = 3)
+
+```
+The above graph above shows the items that are also bought as a result of buying the item on the title of the chart, for instance.
+For instance we see that when the customer buys baking powder, there is also a high likelihood of buying butter. Which is in line with expectations.
+
+# Conclusion
+Association rules are important in uncovering how products are related based on transactional data. They aid in identifying how frequently certain items should be stocked in a retail shop or supermarket, taking into account how the purchase of one product influences the likelihood of purchasing another. As a result, these products can be displayed together to facilitate easier purchases for customers.
+
