@@ -3,6 +3,6 @@ This Repo contains some applications of Unsupervised learning methods,  used for
 
 The final output be be viewed in Rpubs
 
-[PCA Analysis of The World Happiness Report 2017 Data](https://rpubs.com/Macosso/PCA_HappinessReport2017)
-[Association Rules on Market Basket](https://rpubs.com/Macosso/AR_MBA)
+[PCA Analysis of The World Happiness Report 2017 Data](https://rpubs.com/Macosso/PCA_HappinessReport2017) \
+[Association Rules on Market Basket](https://rpubs.com/Macosso/AR_MBA) \
 [Clustering Analysis on usage and engagement patterns for Facebook Live sellers in Thailand](https://rpubs.com/Macosso/ClusteringAnalysis101)
