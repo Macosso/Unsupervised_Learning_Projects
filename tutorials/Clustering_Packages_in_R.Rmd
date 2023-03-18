@@ -1,0 +1,75 @@
+---
+title: "Popular Packages for Clustering methods in R"
+author: "Joao Claudio Macosso"
+date: "2023-03-15"
+output:
+  html_document:
+    toc: true
+    toc_float: True
+    code_folding: hide
+    df_print: paged
+  pdf_document: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.width=5, fig.height=3, message = F, warning = F)
+```
+
+# Introduction
+In R, there are several packages available for clustering methods, each with its own set of classes, results, and switching possibilities. Here are some of the most popular clustering packages with details and source links to CRAN:
+
+## 1. cluster
+```cluster``` - This package provides functions for cluster analysis, including hierarchical clustering and k-means clustering. The resulting clusters can be visualized using dendrograms and heatmaps. It also provides methods for determining the optimal number of clusters using silhouette plots and gap statistics.
+Source: [cran.r-project.org/web/packages/cluster](https://cran.r-project.org/web/packages/cluster/index.html)
+
+Some popular functions in the cluster package include:
+
+* ```hclust()```: performs hierarchical clustering
+* ```kmeans()```: performs k-means clustering
+* ```pam()```: performs partitioning around medoids (PAM) clustering
+* ```daisy()```: computes dissimilarities between objects
+* ```silhouette()```: computes silhouette width for each object
+
+## 2. factoextra
+
+```factoextra``` - This package provides functions for visualizing and analyzing clustering results. It includes functions for creating cluster dendrograms, heatmap visualizations, and scatterplots of clusters. It also provides functions for computing cluster validity indices such as silhouette width, Dunn index, and Calinski-Harabasz index.
+Source: [cran.r-project.org/web/packages/factoextra](https://cran.r-project.org/web/packages/factoextra/index.html)
+
+Some popular functions in the factoextra package include:
+
+* ```fviz_cluster()```: creates visualizations of clustering results, including dendrograms, heatmaps, and scatterplots
+* ```silhouette()```: computes silhouette width for each object
+* ```clusgap()```: computes gap statistic for determining optimal number of clusters
+* ```fviz_silhouette()```: creates a silhouette plot for visualizing the quality of clustering
+
+## 3. mclust
+```mclust``` - This package provides functions for model-based clustering, which involves fitting statistical models to the data and then clustering the models. It includes functions for fitting Gaussian mixture models and selecting the optimal number of components in the model.
+Source: [cran.r-project.org/web/packages/mclust](https://cran.r-project.org/web/packages/mclust/index.html)
+
+Some popular functions in the mclust package include:
+
+* ```Mclust()```: fits a Gaussian mixture model to the data
+* ```densityMclust()```: estimates the density function for each component of the mixture model
+* ```summary()```: provides a summary of the fitted Gaussian mixture model
+* ```plot()```: visualizes the results of the model-based clustering
+
+## 4. dbscan
+```dbscan``` -  This package provides functions for density-based clustering, which involves identifying clusters based on areas of high density in the data. It includes functions for determining the optimal values of the parameters epsilon and minPts.
+Source: [cran.r-project.org/web/packages/dbscan/](https://cran.r-project.org/web/packages/dbscan/index.html)
+
+Some popular functions in the dbscan package include:
+
+* ```dbscan()```: performs density-based clustering
+* ```kNNdistplot()```: visualizes the distribution of k nearest neighbor distances
+* ```eps_estimate()```: estimates the optimal value of the parameter epsilon
+* ```plot()```: visualizes the results of the density-based clustering
+
+
+## 5 ClusterR
+```ClusterR``` - implements k-means, mini-batch-kmeans, k-medoids, affinity propagation clustering and Gaussian mixture models with the option to plot, validate, predict (new data).
+
+# Conclusion
+These are just a few examples of the many clustering packages available in R. Depending on the specific clustering task, other packages such as fpc, clValid, or NbClust might also be useful, a detailed list of available packages for clustering can be found in [https://cran.r-project.org/web/views/Cluster.html](https://cran.r-project.org/web/views/Cluster.html)

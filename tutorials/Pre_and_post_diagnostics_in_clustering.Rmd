@@ -1,0 +1,41 @@
+---
+title: "Pre and post diagnostics in clustering"
+author: "Joao Claudio Macosso"
+date: "2023-03-15"
+output:
+  html_document:
+    toc: true
+    toc_float: True
+    code_folding: hide
+    df_print: paged
+  pdf_document: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.width=5, fig.height=3, message = F, warning = F)
+```
+
+
+# Introduction
+Before clustering, it is important to perform some diagnostics to ensure that the data is appropriate for clustering and to select appropriate clustering parameters. After clustering, it is also important to perform post-diagnostics to evaluate the quality of the resulting clusters. Here are some examples of pre and post-diagnostics in partitioning and hierarchical clustering in R:
+
+
+# Pre-diagnostics:
+
+Check for outliers: Outliers can have a significant impact on clustering results, so it is important to identify and remove them before clustering. One way to identify outliers is to plot the data using boxplots or scatterplots and look for data points that are far from the main cluster.
+
+Check for normality: Many clustering algorithms assume that the data is normally distributed. To check for normality, you can use histograms, normal probability plots, or the Shapiro-Wilk test.
+
+Choose the number of clusters: In partitioning clustering, it is important to choose the number of clusters before clustering. One way to do this is to use the elbow method, which involves plotting the within-cluster sum of squares (WSS) for different numbers of clusters and selecting the number of clusters where the decrease in WSS begins to level off.
+
+# Post-diagnostics:
+
+Cluster validity indices: There are several indices that can be used to evaluate the quality of clustering results. Some popular indices include silhouette width, Dunn index, and Calinski-Harabasz index. These can be computed using functions such as silhouette() and clusvalid().
+
+Visualizations: Visualizations can be helpful for evaluating the quality of clustering results. For example, dendrograms and heatmaps can be used to visualize hierarchical clustering results, and scatterplots can be used to visualize partitioning clustering results. R provides many functions for creating these visualizations, such as fviz_dend() and fviz_cluster().
+
+Here are some examples of pre and post-diagnostics for partitioning and hierarchical clustering in R using the iris dataset:

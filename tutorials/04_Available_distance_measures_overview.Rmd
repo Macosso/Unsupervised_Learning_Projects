@@ -1,0 +1,51 @@
+---
+title: "04: Available distance measures overview"
+author: "Joao Claudio Macosso"
+date: "2023-03-15"
+output:
+  html_document:
+    toc: true
+    toc_float: True
+    code_folding: hide
+    df_print: paged
+  pdf_document: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.width=5, fig.height=3, message = F, warning = F)
+```
+
+# Distance measures and similiarity measures
+
+Distance measures are used in clustering analysis to calculate the dissimilarity or similarity between observations. Here is an overview of some commonly used distance measures:
+
+* ```Euclidean distance```: This is the most common distance measure in clustering analysis. It calculates the straight-line distance between two points in n-dimensional space. Euclidean distance is appropriate when the variables are continuous and have similar scales.
+Euclidean distance between two points $(x1, y1)$ and $(x2, y2)$ in two-dimensional space:
+$d = sqrt((x_2-x_1)^2 + (y_2-y_1)^2)$
+
+* ```Manhattan distance```: This is also known as the "city block" distance. It calculates the distance between two points by adding up the absolute differences between their coordinates. Manhattan distance is appropriate when the variables are continuous and have different scales.
+Manhattan distance between two points $(x1, y1)$ and $(x2, y2)$ in two-dimensional space:
+$d = abs(x2-x1) + abs(y2-y1)$
+
+* ```Cosine similarity```: This measures the cosine of the angle between two vectors in n-dimensional space. It is commonly used for text clustering or when the variables represent word frequencies.
+Cosine similarity between two vectors A and B:
+$cosine_similarity = \frac{(A.B)} {(||A|| * ||B||)}$
+
+where A.B is the dot product of vectors A and B, and ||A|| and ||B|| are the magnitudes of vectors A and B, respectively.
+
+* ```Pearson correlation````: This measures the linear relationship between two variables. It is commonly used when the variables are continuous and have different scales.
+
+* ```Jaccard similarity```: This measures the similarity between two sets of binary variables. It is commonly used in market basket analysis to measure the similarity between customers' shopping baskets.
+
+
+
+# Clustering on colors and Images
+Clustering can also be applied to colors and images. In color clustering, each pixel in an image is treated as an observation with three variables (red, green, and blue values). Distance measures such as Euclidean or Manhattan distance can be used to calculate the dissimilarity between pixels. The resulting clusters can then be used to identify different regions or objects in the image.
+
+In image clustering, each image can be treated as an observation with many variables representing the pixel values. Distance measures such as Euclidean distance or correlation can be used to calculate the dissimilarity between images. The resulting clusters can then be used to identify similar images or to perform image segmentation.
+
+Here are some examples of using distance measures in clustering analysis in R:

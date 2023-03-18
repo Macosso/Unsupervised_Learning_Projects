@@ -1,0 +1,56 @@
+---
+title: "2_2: Factors to consider when applying sensitivity analysis of MDS results"
+author: "Joao Claudio Macosso"
+date: "2023-03-17"
+output:
+  html_document:
+    toc: true
+    toc_float: True
+    code_folding: hide
+    df_print: paged
+  pdf_document: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.width=5, fig.height=3, message = F, warning = F)
+```
+
+
+# Intro
+
+Sensitivity analysis is an important step in the multidimensional scaling (MDS) process. It involves assessing the robustness of the MDS results to variations in the input data or the parameters of the analysis. 
+
+# Factors to consider
+Here are some factors to consider when applying sensitivity analysis of MDS results:
+
+### Input data
+The input data can have a significant impact on the MDS results. It is important to consider the quality, quantity, and representativeness of the data, as well as any biases or errors in the data. Sensitivity analysis can involve varying the data by adding, removing, or modifying observations or variables to assess the impact on the MDS results.
+
+### Distance metric
+The choice of distance metric used in the MDS analysis can affect the results. Sensitivity analysis can involve varying the distance metric to assess the impact on the MDS results.
+
+### Number of dimensions
+The number of dimensions chosen for the MDS analysis can affect the results. Sensitivity analysis can involve varying the number of dimensions to assess the impact on the MDS results.
+
+### Scaling method
+The choice of scaling method used in the MDS analysis can affect the results. Sensitivity analysis can involve varying the scaling method to assess the impact on the MDS results.
+
+### Initialization method
+The initialization method used in the MDS analysis can affect the results. Sensitivity analysis can involve varying the initialization method to assess the impact on the MDS results.
+
+### Robustness analysis
+MDS is susceptible to outliers, and these outliers can have a significant impact on the results. Sensitivity analysis can involve identifying and removing outliers to assess the impact on the MDS results.
+
+### Model fit
+Model fit is a measure of how well the MDS model fits the data. Sensitivity analysis can involve assessing the model fit by comparing the observed distances to the predicted distances, and varying the model parameters to assess the impact on the model fit.
+
+### Interpretation
+The interpretation of the MDS results can be influenced by subjective factors, such as the researcher's background, expertise, and expectations. Sensitivity analysis can involve assessing the robustness of the interpretation by varying the interpretation criteria or the perspective of the analysis.
+
+
+# Conclusion
+In summary, sensitivity analysis is an important step in the MDS process, and involves assessing the robustness of the results to variations in the input data or the parameters of the analysis. Factors to consider when applying sensitivity analysis of MDS results include the input data, distance metric, number of dimensions, scaling method, initialization method, robustness analysis, model fit, and interpretation.
