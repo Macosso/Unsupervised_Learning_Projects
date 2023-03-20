@@ -13,7 +13,7 @@
 
 <meta name="date" content="2023-03-15" />
 
-<title>2_1: MDS VS PCA</title>
+<title>Clustering Analysis</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -2850,96 +2850,363 @@ border-radius: 0px;
 
 
 
-<h1 class="title toc-ignore">2_1: MDS VS PCA</h1>
+<h1 class="title toc-ignore">Clustering Analysis</h1>
 <h4 class="author">Joao Claudio Macosso</h4>
 <h4 class="date">2023-03-15</h4>
 
 </div>
 
 
-<div id="introduction" class="section level1">
-<h1>Introduction</h1>
-<p>Multidimensional scaling (MDS) and principal component analysis (PCA)
-are two popular methods for reducing the dimensionality of data.
-Although both methods have similarities, they differ in their goals,
-assumptions, and procedures. In this answer, we will discuss the
-similarities and differences between MDS and PCA in detail.</p>
+<div id="similarities-and-differences-of-k-means-pam-and-clara" class="section level1">
+<h1>1. Similarities and differences of k-means, PAM and CLARA</h1>
+<p>K-means, PAM (Partitioning Around Medoids), and CLARA (Clustering
+Large Applications) are popular unsupervised learning algorithms used
+for clustering analysis. Despite the similarities between these methods,
+they do also have some dissimilarities. In this article present
+similarities and differences between these methods focusing on approach
+to clustering, computational cost, and appropriate use cases.</p>
+<div id="similarities-and-differences" class="section level2">
+<h2>1.1. Similarities and differences</h2>
+<p>All the three algorithms are unsupervised learning algorithms that do
+not require target variable in the dataset, In addition to that, they
+are all partitional clustering algorithms, which means that they assign
+each data point to a single cluster. Furthermore, they are all iterative
+algorithms that aim to minimize a defined objective function that
+measures the similarity between data points in a cluster and the
+dissimilarity between different clusters. Similarities and
+differences</p>
+<div id="construction-of-clusters" class="section level3">
+<h3>1.1.1. Construction of clusters</h3>
+<p>In K-means each cluster is represented by its centroid (mean) of the
+data points assigned to it. The algorithm assigns each data point to the
+closest centroid and updates the centroids until there is convergence.
+On the other hand, with PAM each cluster is represented by a medoid,
+which is the most centrally located data point in a cluster. At the
+initial stage the algorithm assigns random data points as medoids, and
+then iteratively swaps a medoid with a non-medoid point to improve the
+clustering. To reduce the computational cost of PAM, the data can be
+split into multiple samples and run PAM on each sample, which is known
+as CLARA algorithm which the extension of PAM algorithm with less
+computational cost as it works on a sample of the data rather than the
+full dataset.</p>
 </div>
-<div id="similarities" class="section level1">
-<h1>Similarities:</h1>
-<div id="dimensionality-reduction" class="section level3">
-<h3>Dimensionality reduction</h3>
-<p>Both MDS and PCA are methods for reducing the dimensionality of data
-by transforming a set of high-dimensional variables into a smaller set
-of low-dimensional variables.</p>
+<div id="use-cases" class="section level3">
+<h3>1.1.2. Use cases</h3>
+<p>K-means is more suitable for datasets with a moderate number of
+clusters and well-separated data points. PAM on the other hand is more
+appropriate for datasets with noisy or high-dimensional data and where
+the number of clusters is not obvious. However, when faced with large
+dataset that might not be feasible to run PAM algorithm on the entire
+dataset, CLARA algorithm should be considered.</p>
 </div>
-<div id="orthogonality" class="section level3">
-<h3>Orthogonality</h3>
-<p>Both methods produce orthogonal dimensions, meaning that the new
-variables are uncorrelated with each other.</p>
+<div id="efficiency" class="section level3">
+<h3>1.1.3. Efficiency</h3>
+<p>K-means can easily converge quickly even on large datasets. However,
+the optimal convergence is not guaranteed. On the other Hand, PAM is
+slower than k-means due to the distance calculation, but it is more
+robust to outliers and can produce better results when faced with noisy
+data. Furthermore, CLARA, can be slower than PAM as it needs to generate
+multiple samples of the data, but it can handle large datasets and can
+produce more reliable results than k-means or PAM.</p>
 </div>
-<div id="variance-maximization" class="section level3">
-<h3>Variance maximization</h3>
-<p>Both methods aim to maximize the amount of variance explained by the
-new variables.</p>
+<div id="computational-cost" class="section level3">
+<h3>1.1.4. Computational cost</h3>
+<p>K-means has the lowest computational cost when compared to PAM and
+CLARA. However, it can get stuck in local optima, which might not be the
+global optima. The algorithm scales linearly with the number of data
+points and the number of clusters. PAM on the other hand, has a higher
+computational cost than k-means, because it computes distances for each
+data points and the medoids for each iteration. While CLARA has the
+highest computational cost between these three algorithms, because it
+requires running on multiple samples.</p>
 </div>
-</div>
-<div id="differences" class="section level1">
-<h1>Differences:</h1>
-<div id="goals" class="section level3">
-<h3>Goals</h3>
-<p>The primary goal of MDS is to find a low-dimensional representation
-of the data that preserves the pairwise distances between observations.
-In other words, MDS seeks to find a configuration of points in a
-low-dimensional space that best approximates the distances between the
-original points in a high-dimensional space. On the other hand, the
-primary goal of PCA is to find a set of orthogonal variables that
-explain the maximum amount of variance in the data.</p>
-</div>
-<div id="assumptions" class="section level3">
-<h3>Assumptions</h3>
-<p>MDS assumes that the distances between observations in the
-high-dimensional space are a true reflection of the underlying
-similarities or dissimilarities between the observations. In other
-words, MDS assumes that the distance metric is reliable and meaningful.
-PCA assumes that the data are normally distributed and that the
-relationship between the variables is linear.</p>
-</div>
-<div id="procedures" class="section level3">
-<h3>Procedures</h3>
-<p>MDS transforms the distance matrix into a low-dimensional
-configuration of points using a variety of algorithms, including
-classical scaling, non-metric scaling, and metric scaling. PCA
-transforms the original variables into a new set of uncorrelated
-variables (called principal components) by performing a linear
-transformation of the data. PCA uses eigenvalue decomposition to
-determine the principal components.</p>
-</div>
-<div id="interpretability" class="section level3">
-<h3>Interpretability</h3>
-<p>MDS produces a configuration of points in a low-dimensional space
-that represents the original data, making it easy to interpret and
-visualize the results. PCA produces a set of new variables that are
-linear combinations of the original variables, making it more difficult
-to interpret the results.</p>
-</div>
-<div id="applicability" class="section level3">
-<h3>Applicability</h3>
-<p>MDS is suitable for analyzing dissimilarities or similarities in any
-type of data, including categorical, ordinal, and continuous data. PCA
-is suitable for analyzing continuous data that are normally distributed
-and have linear relationships.</p>
+<div id="summary" class="section level3">
+<h3>1.2. Summary</h3>
+<p>To sum up, despite similarities between K-means, PAM, and CLARA,
+there are also significant differences between them, more specifically
+when it comes to how clusters are constructed, computational cost,
+efficiency, and appropriate use cases. K-means is fast and suitable for
+datasets with a moderate number of well-separated groups within the
+dataset, while PAM and CLARA are slower but more robust to datasets with
+a lot of noise. Furthermore, PAM is appropriate for noisy or
+high-dimensional datasets where the number of clusters is not known in
+advance, while CLARA is more suitable for large datasets where robust
+clustering results are desired.</p>
 </div>
 </div>
-<div id="conclusion" class="section level1">
-<h1>Conclusion</h1>
-<p>In summary, MDS and PCA are both useful tools for reducing the
-dimensionality of data. MDS is primarily used for visualizing the
-similarities and dissimilarities between observations, while PCA is
-primarily used for identifying the underlying structure of the data by
-finding the most important variables that explain the most variation in
-the data. The choice between MDS and PCA depends on the research
-question, the type of data, and the goals of the analysis.</p>
+</div>
+<div id="overview-of-available-packages-for-clustering-methods-classes-results-switching-possibilities" class="section level1">
+<h1>2. Overview of available packages for clustering methods – classes,
+results, switching possibilities</h1>
+<p>In R, there are several packages available for clustering methods,
+each with its own set of classes, results, and switching possibilities.
+Here are some of the most popular clustering packages with details and
+source links to CRAN:</p>
+<div id="cluster" class="section level3">
+<h3>2.1. cluster</h3>
+<p><code>cluster</code> - This package provides functions for cluster
+analysis, including hierarchical clustering and k-means clustering. The
+resulting clusters can be visualized using dendrograms and heatmaps. It
+also provides methods for determining the optimal number of clusters
+using silhouette plots and gap statistics. Source: <a href="https://cran.r-project.org/web/packages/cluster/index.html">cran.r-project.org/web/packages/cluster</a></p>
+<p>Some popular functions in the cluster package include:</p>
+<ul>
+<li><code>hclust()</code>: performs hierarchical clustering</li>
+<li><code>kmeans()</code>: performs k-means clustering</li>
+<li><code>pam()</code>: performs partitioning around medoids (PAM)
+clustering</li>
+<li><code>daisy()</code>: computes dissimilarities between objects</li>
+<li><code>silhouette()</code>: computes silhouette width for each
+object</li>
+</ul>
+</div>
+<div id="factoextra" class="section level3">
+<h3>2.2. factoextra</h3>
+<p><code>factoextra</code> - This package provides functions for
+visualizing and analyzing clustering results. It includes functions for
+creating cluster dendrograms, heatmap visualizations, and scatterplots
+of clusters. It also provides functions for computing cluster validity
+indices such as silhouette width, Dunn index, and Calinski-Harabasz
+index. Source: <a href="https://cran.r-project.org/web/packages/factoextra/index.html">cran.r-project.org/web/packages/factoextra</a></p>
+<p>Some popular functions in the factoextra package include:</p>
+<ul>
+<li><code>fviz_cluster()</code>: creates visualizations of clustering
+results, including dendrograms, heatmaps, and scatterplots</li>
+<li><code>silhouette()</code>: computes silhouette width for each
+object</li>
+<li><code>clusgap()</code>: computes gap statistic for determining
+optimal number of clusters</li>
+<li><code>fviz_silhouette()</code>: creates a silhouette plot for
+visualizing the quality of clustering</li>
+</ul>
+</div>
+<div id="mclust" class="section level3">
+<h3>2.3. mclust</h3>
+<p><code>mclust</code> - This package provides functions for model-based
+clustering, which involves fitting statistical models to the data and
+then clustering the models. It includes functions for fitting Gaussian
+mixture models and selecting the optimal number of components in the
+model. Source: <a href="https://cran.r-project.org/web/packages/mclust/index.html">cran.r-project.org/web/packages/mclust</a></p>
+<p>Some popular functions in the mclust package include:</p>
+<ul>
+<li><code>Mclust()</code>: fits a Gaussian mixture model to the
+data</li>
+<li><code>densityMclust()</code>: estimates the density function for
+each component of the mixture model</li>
+<li><code>summary()</code>: provides a summary of the fitted Gaussian
+mixture model</li>
+<li><code>plot()</code>: visualizes the results of the model-based
+clustering</li>
+</ul>
+</div>
+<div id="dbscan" class="section level3">
+<h3>2.4. dbscan</h3>
+<p><code>dbscan</code> - This package provides functions for
+density-based clustering, which involves identifying clusters based on
+areas of high density in the data. It includes functions for determining
+the optimal values of the parameters epsilon and minPts. Source: <a href="https://cran.r-project.org/web/packages/dbscan/index.html">cran.r-project.org/web/packages/dbscan/</a></p>
+<p>Some popular functions in the dbscan package include:</p>
+<ul>
+<li><code>dbscan()</code>: performs density-based clustering</li>
+<li><code>kNNdistplot()</code>: visualizes the distribution of k nearest
+neighbor distances</li>
+<li><code>eps_estimate()</code>: estimates the optimal value of the
+parameter epsilon</li>
+<li><code>plot()</code>: visualizes the results of the density-based
+clustering</li>
+</ul>
+</div>
+<div id="conclusion" class="section level3">
+<h3>2.5. Conclusion</h3>
+<p>These are just a few examples of the many clustering packages
+available in R. Depending on the specific clustering task, other
+packages such as fpc, clValid, or NbClust might also be useful, a
+detailed list of available packages for clustering can be found in <a href="https://cran.r-project.org/web/views/Cluster.html">https://cran.r-project.org/web/views/Cluster.html</a></p>
+</div>
+</div>
+<div id="pre-and-post-diagnostics-in-clustering" class="section level1">
+<h1>3. Pre and post diagnostics in clustering</h1>
+<p>Before clustering, it is important to perform some diagnostics to
+ensure that the data is appropriate for clustering and to select
+appropriate clustering parameters. After clustering, it is also
+important to perform post-diagnostics to evaluate the quality of the
+resulting clusters. Here are some examples of pre and post-diagnostics
+in partitioning and hierarchical clustering in R:</p>
+<div id="pre-diagnostics" class="section level2">
+<h2>3.1. Pre-diagnostics:</h2>
+<div id="check-for-outliers" class="section level3">
+<h3>3.1.1. Check for outliers</h3>
+<p>Outliers can have a significant impact on clustering results, so it
+is important to identify and remove them before clustering. One way to
+identify outliers is to plot the data using boxplots or scatterplots and
+look for data points that are far from the main cluster.</p>
+</div>
+<div id="check-for-normality" class="section level3">
+<h3>3.1.2. Check for normality</h3>
+<p>Many clustering algorithms assume that the data is normally
+distributed. To check for normality, you can use histograms, normal
+probability plots, or the Shapiro-Wilk test.</p>
+</div>
+<div id="choose-the-number-of-clusters" class="section level3">
+<h3>3.1.3. Choose the number of clusters</h3>
+<p>In partitioning clustering, it is important to choose the number of
+clusters before clustering. One way to do this is to use the elbow
+method, which involves plotting the within-cluster sum of squares (WSS)
+for different numbers of clusters and selecting the number of clusters
+where the decrease in WSS begins to level off.</p>
+</div>
+</div>
+<div id="post-diagnostics" class="section level2">
+<h2>3.2. Post-diagnostics:</h2>
+<div id="cluster-validity-indices" class="section level3">
+<h3>3.2.1.Cluster validity indices</h3>
+<p>There are several indices that can be used to evaluate the quality of
+clustering results. Some popular indices include silhouette width, Dunn
+index, and Calinski-Harabasz index. These can be computed using
+functions such as <code>silhouette()</code> and
+<code>clusvalid()</code>.</p>
+</div>
+<div id="visualizations" class="section level3">
+<h3>3.2.2. Visualizations</h3>
+<p>Visualizations can be helpful for evaluating the quality of
+clustering results. For example, dendrograms and heatmaps can be used to
+visualize hierarchical clustering results, and scatterplots can be used
+to visualize partitioning clustering results. R provides many functions
+for creating these visualizations, such as <code>fviz_dend()</code> and
+```fviz_cluster()````.</p>
+</div>
+</div>
+</div>
+<div id="available-distance-measures-overview-similarities-differences-suggested-applications-or-how-clustering-works-with-colours-and-images" class="section level1">
+<h1>4. Available distance measures overview – similarities, differences,
+suggested applications Or How clustering works with colours and
+images</h1>
+<div id="distance-measures-and-similiarity-measures" class="section level2">
+<h2>4.1. Distance measures and similiarity measures</h2>
+<p>Distance measures are used in clustering analysis to calculate the
+dissimilarity or similarity between observations. Here is an overview of
+some commonly used distance measures:</p>
+<ul>
+<li><p><code>Euclidean distance</code>: This is the most common distance
+measure in clustering analysis. It calculates the straight-line distance
+between two points in n-dimensional space. Euclidean distance is
+appropriate when the variables are continuous and have similar scales.
+Euclidean distance between two points <span class="math inline">\((x1,
+y1)\)</span> and <span class="math inline">\((x2, y2)\)</span> in
+two-dimensional space: <span class="math inline">\(d = sqrt((x_2-x_1)^2
++ (y_2-y_1)^2)\)</span></p></li>
+<li><p><code>Manhattan distance</code>: This is also known as the “city
+block” distance. It calculates the distance between two points by adding
+up the absolute differences between their coordinates. Manhattan
+distance is appropriate when the variables are continuous and have
+different scales. Manhattan distance between two points <span class="math inline">\((x1, y1)\)</span> and <span class="math inline">\((x2, y2)\)</span> in two-dimensional space: <span class="math inline">\(d = abs(x2-x1) + abs(y2-y1)\)</span></p></li>
+<li><p><code>Cosine similarity</code>: This measures the cosine of the
+angle between two vectors in n-dimensional space. It is commonly used
+for text clustering or when the variables represent word frequencies.
+Cosine similarity between two vectors A and B: <span class="math inline">\(cosine_similarity = \frac{(A.B)} {(||A|| *
+||B||)}\)</span></p></li>
+</ul>
+<p>where A.B is the dot product of vectors A and B, and ||A|| and ||B||
+are the magnitudes of vectors A and B, respectively.</p>
+<ul>
+<li><p><code>Pearson correlation</code>: This measures the linear
+relationship between two variables. It is commonly used when the
+variables are continuous and have different scales.</p></li>
+<li><p><code>Jaccard similarity</code>: This measures the similarity
+between two sets of binary variables. It is commonly used in market
+basket analysis to measure the similarity between customers’ shopping
+baskets.</p></li>
+</ul>
+</div>
+<div id="clustering-on-colors-and-images" class="section level2">
+<h2>4.2. Clustering on colors and Images</h2>
+<p>Clustering can also be applied to colors and images. In color
+clustering, each pixel in an image is treated as an observation with
+three variables (red, green, and blue values). Distance measures such as
+Euclidean or Manhattan distance can be used to calculate the
+dissimilarity between pixels. The resulting clusters can then be used to
+identify different regions or objects in the image.</p>
+<p>In image clustering, each image can be treated as an observation with
+many variables representing the pixel values. Distance measures such as
+Euclidean distance or correlation can be used to calculate the
+dissimilarity between images. The resulting clusters can then be used to
+identify similar images or to perform image segmentation.</p>
+</div>
+</div>
+<div id="possible-applications-of-clustering-thematic-areas-data-characteristics-pros-and-cons" class="section level1">
+<h1>5. Possible applications of clustering – thematic areas, data
+characteristics, pros and cons</h1>
+<p>Clustering is a popular technique used in data analysis and machine
+learning to group similar data points together. Clustering can be used
+in a variety of applications, some of which are discussed below.</p>
+<div id="thematic-areas" class="section level2">
+<h2>5.1. Thematic areas</h2>
+<div id="marketing" class="section level3">
+<h3>5.1.1. Marketing</h3>
+<p>Clustering can be used to group customers with similar purchasing
+patterns, preferences, and behaviors, enabling businesses to target
+specific customer segments with personalized marketing strategies.</p>
+</div>
+<div id="healthcare" class="section level3">
+<h3>5.1.2. Healthcare</h3>
+<p>Clustering can be used to group patients with similar health
+conditions, symptoms, and treatment outcomes, enabling healthcare
+providers to develop personalized treatment plans.</p>
+</div>
+<div id="social-media-analysis" class="section level3">
+<h3>5.1.3. Social Media Analysis</h3>
+<p>Clustering can be used to group social media users with similar
+interests, behaviors, and demographics, enabling businesses to target
+specific customer segments with personalized social media marketing
+campaigns.</p>
+</div>
+<div id="fraud-detection" class="section level3">
+<h3>5.1.4. Fraud Detection</h3>
+<p>Clustering can be used to group transactions with similar
+characteristics, enabling businesses to identify fraudulent activities
+and patterns.</p>
+</div>
+</div>
+<div id="data-characteristics" class="section level2">
+<h2>5.2. Data Characteristics:</h2>
+<p>Clustering can be applied to various types of data, including:</p>
+<div id="numerical-data" class="section level3">
+<h3>5.2.1. Numerical data</h3>
+<p>Clustering can be used to group numerical data points with similar
+values, such as age, income, and product prices. Categorical data:
+Clustering can be used to group categorical data points with similar
+characteristics, such as gender, occupation, and product categories.</p>
+</div>
+<div id="text-data" class="section level3">
+<h3>5.2.2. Text data</h3>
+<p>Clustering can be used to group text data points with similar
+content, such as reviews, comments, and social media posts. Image data:
+Clustering can be used to group image data points with similar visual
+characteristics, such as color, texture, and shape.</p>
+</div>
+</div>
+<div id="pros-and-cons" class="section level2">
+<h2>5.3. Pros and Cons:</h2>
+<div id="pros" class="section level3">
+<h3>5.3.1. Pros:</h3>
+<p>Clustering is a powerful tool for data exploration, enabling analysts
+to discover patterns and relationships in large datasets. Clustering can
+be used to identify outliers and anomalies in datasets, which can be
+useful for fraud detection and quality control. Clustering can be used
+to group similar data points together, enabling businesses to develop
+personalized marketing strategies and treatment plans. Clustering is a
+fast and efficient algorithm that can be applied to large datasets.</p>
+</div>
+<div id="cons" class="section level3">
+<h3>5.3.2. Cons:</h3>
+<p>Clustering is a complex algorithm that requires expertise in data
+analysis and machine learning. Clustering can produce different results
+depending on the algorithm used, the number of clusters chosen, and the
+initial conditions. Clustering can be sensitive to outliers and noise in
+datasets, which can affect the accuracy of the results. Clustering may
+not be suitable for all types of data and applications.</p>
+</div>
+</div>
 </div>
 
 

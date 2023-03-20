@@ -1,0 +1,208 @@
+---
+title: "Clustering Analysis"
+author: "Joao Claudio Macosso"
+date: "2023-03-15"
+output:
+  html_document:
+    toc: true
+    toc_float: True
+    code_folding: hide
+    df_print: paged
+  pdf_document: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.width=5, fig.height=3, message = F, warning = F)
+```
+
+# 1. Similarities and differences of k-means, PAM and CLARA
+
+K-means, PAM (Partitioning Around Medoids), and CLARA (Clustering Large Applications) are popular unsupervised learning algorithms used for clustering analysis. Despite the similarities between these methods, they do also have some dissimilarities. In this article present similarities and differences between these methods focusing on approach to clustering, computational cost, and appropriate use cases.
+
+## 1.1.	Similarities and differences
+All the three algorithms are unsupervised learning algorithms that do not require target variable in the dataset, In addition to that, they are all partitional clustering algorithms, which means that they assign each data point to a single cluster. Furthermore, they are all iterative algorithms that aim to minimize a defined objective function that measures the similarity between data points in a cluster and the dissimilarity between different clusters.
+Similarities and differences
+
+
+### 1.1.1.	Construction of clusters
+In K-means each cluster is represented by its centroid (mean) of the data points assigned to it. The algorithm assigns each data point to the closest centroid and updates the centroids until there is convergence. 
+On the other hand, with PAM each cluster is represented by a medoid, which is the most centrally located data point in a cluster. At the initial stage the algorithm assigns random data points as medoids, and then iteratively swaps a medoid with a non-medoid point to improve the clustering.
+To reduce the computational cost of PAM, the data can be split into multiple samples and run PAM on each sample, which is known as CLARA algorithm which the extension of PAM algorithm with less computational cost as it works on a sample of the data rather than the full dataset.
+
+
+### 1.1.2.	 Use cases
+K-means is more suitable for datasets with a moderate number of clusters and well-separated data points. PAM on the other hand is more appropriate for datasets with noisy or high-dimensional data and where the number of clusters is not obvious. However, when faced with large dataset that might not be feasible to run PAM algorithm on the entire dataset, CLARA algorithm should  be considered. 
+
+### 1.1.3.	 Efficiency
+K-means can easily converge quickly even on large datasets. However, the optimal convergence is not guaranteed. On the other Hand, PAM is slower than k-means due to the distance calculation, but it is more robust to outliers and can produce better results when faced with noisy data. Furthermore, CLARA, can be slower than PAM as it needs to generate multiple samples of the data, but it can handle large datasets and can produce more reliable results than k-means or PAM.
+
+### 1.1.4.	Computational cost
+K-means has the lowest computational cost when compared to PAM and CLARA. However, it can get stuck in local optima, which might not be the global optima. The algorithm scales linearly with the number of data points and the number of clusters. PAM on the other hand,  has a higher computational cost than k-means, because it computes distances for each data points and the medoids for each iteration. While CLARA has the highest computational cost between these three algorithms, because it requires running on multiple samples.
+
+### 1.2.	Summary
+To sum up, despite similarities between K-means, PAM, and CLARA, there are also significant differences between them, more specifically when it comes to how clusters are constructed, computational cost, efficiency, and appropriate use cases. K-means is fast and suitable for datasets with a moderate number of well-separated groups within the dataset, while PAM and CLARA are slower but more robust to datasets with a lot of noise. Furthermore, PAM is appropriate for noisy or high-dimensional datasets where the number of clusters is not known in advance, while CLARA is more suitable for large datasets where robust clustering results are desired.
+
+
+# 2. Overview of available packages for clustering methods – classes, results, switching possibilities
+In R, there are several packages available for clustering methods, each with its own set of classes, results, and switching possibilities. Here are some of the most popular clustering packages with details and source links to CRAN:
+
+### 2.1. cluster
+```cluster``` - This package provides functions for cluster analysis, including hierarchical clustering and k-means clustering. The resulting clusters can be visualized using dendrograms and heatmaps. It also provides methods for determining the optimal number of clusters using silhouette plots and gap statistics.
+Source: [cran.r-project.org/web/packages/cluster](https://cran.r-project.org/web/packages/cluster/index.html)
+
+Some popular functions in the cluster package include:
+
+* ```hclust()```: performs hierarchical clustering
+* ```kmeans()```: performs k-means clustering
+* ```pam()```: performs partitioning around medoids (PAM) clustering
+* ```daisy()```: computes dissimilarities between objects
+* ```silhouette()```: computes silhouette width for each object
+
+### 2.2. factoextra
+
+```factoextra``` - This package provides functions for visualizing and analyzing clustering results. It includes functions for creating cluster dendrograms, heatmap visualizations, and scatterplots of clusters. It also provides functions for computing cluster validity indices such as silhouette width, Dunn index, and Calinski-Harabasz index.
+Source: [cran.r-project.org/web/packages/factoextra](https://cran.r-project.org/web/packages/factoextra/index.html)
+
+Some popular functions in the factoextra package include:
+
+* ```fviz_cluster()```: creates visualizations of clustering results, including dendrograms, heatmaps, and scatterplots
+* ```silhouette()```: computes silhouette width for each object
+* ```clusgap()```: computes gap statistic for determining optimal number of clusters
+* ```fviz_silhouette()```: creates a silhouette plot for visualizing the quality of clustering
+
+### 2.3. mclust
+```mclust``` - This package provides functions for model-based clustering, which involves fitting statistical models to the data and then clustering the models. It includes functions for fitting Gaussian mixture models and selecting the optimal number of components in the model.
+Source: [cran.r-project.org/web/packages/mclust](https://cran.r-project.org/web/packages/mclust/index.html)
+
+Some popular functions in the mclust package include:
+
+* ```Mclust()```: fits a Gaussian mixture model to the data
+* ```densityMclust()```: estimates the density function for each component of the mixture model
+* ```summary()```: provides a summary of the fitted Gaussian mixture model
+* ```plot()```: visualizes the results of the model-based clustering
+
+### 2.4. dbscan
+```dbscan``` -  This package provides functions for density-based clustering, which involves identifying clusters based on areas of high density in the data. It includes functions for determining the optimal values of the parameters epsilon and minPts.
+Source: [cran.r-project.org/web/packages/dbscan/](https://cran.r-project.org/web/packages/dbscan/index.html)
+
+Some popular functions in the dbscan package include:
+
+* ```dbscan()```: performs density-based clustering
+* ```kNNdistplot()```: visualizes the distribution of k nearest neighbor distances
+* ```eps_estimate()```: estimates the optimal value of the parameter epsilon
+* ```plot()```: visualizes the results of the density-based clustering
+
+
+### 2.5. Conclusion
+These are just a few examples of the many clustering packages available in R. Depending on the specific clustering task, other packages such as fpc, clValid, or NbClust might also be useful, a detailed list of available packages for clustering can be found in [https://cran.r-project.org/web/views/Cluster.html](https://cran.r-project.org/web/views/Cluster.html)
+
+
+
+# 3. Pre and post diagnostics in clustering 
+Before clustering, it is important to perform some diagnostics to ensure that the data is appropriate for clustering and to select appropriate clustering parameters. After clustering, it is also important to perform post-diagnostics to evaluate the quality of the resulting clusters. Here are some examples of pre and post-diagnostics in partitioning and hierarchical clustering in R:
+
+
+## 3.1. Pre-diagnostics:
+
+### 3.1.1. Check for outliers
+Outliers can have a significant impact on clustering results, so it is important to identify and remove them before clustering. One way to identify outliers is to plot the data using boxplots or scatterplots and look for data points that are far from the main cluster.
+
+### 3.1.2. Check for normality
+Many clustering algorithms assume that the data is normally distributed. To check for normality, you can use histograms, normal probability plots, or the Shapiro-Wilk test.
+
+### 3.1.3. Choose the number of clusters
+In partitioning clustering, it is important to choose the number of clusters before clustering. One way to do this is to use the elbow method, which involves plotting the within-cluster sum of squares (WSS) for different numbers of clusters and selecting the number of clusters where the decrease in WSS begins to level off.
+
+## 3.2. Post-diagnostics:
+
+### 3.2.1.Cluster validity indices
+There are several indices that can be used to evaluate the quality of clustering results. Some popular indices include silhouette width, Dunn index, and Calinski-Harabasz index. These can be computed using functions such as ```silhouette()``` and ```clusvalid()```.
+
+### 3.2.2. Visualizations
+Visualizations can be helpful for evaluating the quality of clustering results. For example, dendrograms and heatmaps can be used to visualize hierarchical clustering results, and scatterplots can be used to visualize partitioning clustering results. R provides many functions for creating these visualizations, such as ```fviz_dend()``` and ```fviz_cluster()````.
+
+
+
+
+
+
+# 4. Available distance measures overview – similarities, differences, suggested applications Or How clustering works with colours and images
+
+## 4.1. Distance measures and similiarity measures
+
+Distance measures are used in clustering analysis to calculate the dissimilarity or similarity between observations. Here is an overview of some commonly used distance measures:
+
+* ```Euclidean distance```: This is the most common distance measure in clustering analysis. It calculates the straight-line distance between two points in n-dimensional space. Euclidean distance is appropriate when the variables are continuous and have similar scales.
+Euclidean distance between two points $(x1, y1)$ and $(x2, y2)$ in two-dimensional space:
+$d = sqrt((x_2-x_1)^2 + (y_2-y_1)^2)$
+
+* ```Manhattan distance```: This is also known as the "city block" distance. It calculates the distance between two points by adding up the absolute differences between their coordinates. Manhattan distance is appropriate when the variables are continuous and have different scales.
+Manhattan distance between two points $(x1, y1)$ and $(x2, y2)$ in two-dimensional space:
+$d = abs(x2-x1) + abs(y2-y1)$
+
+* ```Cosine similarity```: This measures the cosine of the angle between two vectors in n-dimensional space. It is commonly used for text clustering or when the variables represent word frequencies.
+Cosine similarity between two vectors A and B:
+$cosine_similarity = \frac{(A.B)} {(||A|| * ||B||)}$
+
+where A.B is the dot product of vectors A and B, and ||A|| and ||B|| are the magnitudes of vectors A and B, respectively.
+
+* ```Pearson correlation```: This measures the linear relationship between two variables. It is commonly used when the variables are continuous and have different scales.
+
+* ```Jaccard similarity```: This measures the similarity between two sets of binary variables. It is commonly used in market basket analysis to measure the similarity between customers' shopping baskets.
+
+
+
+## 4.2. Clustering on colors and Images
+Clustering can also be applied to colors and images. In color clustering, each pixel in an image is treated as an observation with three variables (red, green, and blue values). Distance measures such as Euclidean or Manhattan distance can be used to calculate the dissimilarity between pixels. The resulting clusters can then be used to identify different regions or objects in the image.
+
+In image clustering, each image can be treated as an observation with many variables representing the pixel values. Distance measures such as Euclidean distance or correlation can be used to calculate the dissimilarity between images. The resulting clusters can then be used to identify similar images or to perform image segmentation.
+
+
+# 5. Possible applications of clustering – thematic areas, data characteristics, pros and cons
+
+
+Clustering is a popular technique used in data analysis and machine learning to group similar data points together. Clustering can be used in a variety of applications, some of which are discussed below.
+
+## 5.1. Thematic areas
+
+### 5.1.1. Marketing
+Clustering can be used to group customers with similar purchasing patterns, preferences, and behaviors, enabling businesses to target specific customer segments with personalized marketing strategies.
+
+### 5.1.2. Healthcare
+Clustering can be used to group patients with similar health conditions, symptoms, and treatment outcomes, enabling healthcare providers to develop personalized treatment plans.
+
+### 5.1.3. Social Media Analysis
+Clustering can be used to group social media users with similar interests, behaviors, and demographics, enabling businesses to target specific customer segments with personalized social media marketing campaigns.
+
+### 5.1.4. Fraud Detection
+Clustering can be used to group transactions with similar characteristics, enabling businesses to identify fraudulent activities and patterns.
+
+## 5.2. Data Characteristics:
+Clustering can be applied to various types of data, including:
+
+### 5.2.1. Numerical data
+Clustering can be used to group numerical data points with similar values, such as age, income, and product prices.
+Categorical data: Clustering can be used to group categorical data points with similar characteristics, such as gender, occupation, and product categories.
+
+### 5.2.2. Text data
+Clustering can be used to group text data points with similar content, such as reviews, comments, and social media posts.
+Image data: Clustering can be used to group image data points with similar visual characteristics, such as color, texture, and shape.
+
+## 5.3. Pros and Cons:
+
+### 5.3.1. Pros:
+
+Clustering is a powerful tool for data exploration, enabling analysts to discover patterns and relationships in large datasets.
+Clustering can be used to identify outliers and anomalies in datasets, which can be useful for fraud detection and quality control.
+Clustering can be used to group similar data points together, enabling businesses to develop personalized marketing strategies and treatment plans.
+Clustering is a fast and efficient algorithm that can be applied to large datasets.
+
+### 5.3.2. Cons:
+Clustering is a complex algorithm that requires expertise in data analysis and machine learning.
+Clustering can produce different results depending on the algorithm used, the number of clusters chosen, and the initial conditions.
+Clustering can be sensitive to outliers and noise in datasets, which can affect the accuracy of the results.
+Clustering may not be suitable for all types of data and applications.

@@ -1,0 +1,170 @@
+---
+title: "Dimension Reduction"
+author: "Joao Claudio Macosso"
+date: "2023-03-17"
+output:
+  html_document:
+    toc: true
+    toc_float: True
+    code_folding: hide
+    df_print: paged
+  pdf_document: default
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.width=5, fig.height=3, message = F, warning = F)
+```
+
+# 1. Similarities and differences between MDS and PCA
+Multidimensional scaling (MDS) and principal component analysis (PCA) are two popular methods for reducing the dimensionality of data. Although both methods have similarities, they differ in their goals, assumptions, and procedures. In this answer, we will discuss the similarities and differences between MDS and PCA in detail.
+
+## 1.1. Similarities:
+
+### 1.1.1 Dimensionality reduction
+Both MDS and PCA are methods for reducing the dimensionality of data by transforming a set of high-dimensional variables into a smaller set of low-dimensional variables.
+
+### 1.1.2. Orthogonality
+Both methods produce orthogonal dimensions, meaning that the new variables are uncorrelated with each other.
+
+### 1.1.3. Variance maximization
+Both methods aim to maximize the amount of variance explained by the new variables.
+
+## 1.2. Differences:
+
+### 1.2.1. Goals
+The primary goal of MDS is to find a low-dimensional representation of the data that preserves the pairwise distances between observations. In other words, MDS seeks to find a configuration of points in a low-dimensional space that best approximates the distances between the original points in a high-dimensional space. On the other hand, the primary goal of PCA is to find a set of orthogonal variables that explain the maximum amount of variance in the data.
+
+### 1.2.2. Assumptions
+MDS assumes that the distances between observations in the high-dimensional space are a true reflection of the underlying similarities or dissimilarities between the observations. In other words, MDS assumes that the distance metric is reliable and meaningful. PCA assumes that the data are normally distributed and that the relationship between the variables is linear.
+
+### 1.2.3. Procedures
+MDS transforms the distance matrix into a low-dimensional configuration of points using a variety of algorithms, including classical scaling, non-metric scaling, and metric scaling. PCA transforms the original variables into a new set of uncorrelated variables (called principal components) by performing a linear transformation of the data. PCA uses eigenvalue decomposition to determine the principal components.
+
+### 1.2.4. Interpretability
+MDS produces a configuration of points in a low-dimensional space that represents the original data, making it easy to interpret and visualize the results. PCA produces a set of new variables that are linear combinations of the original variables, making it more difficult to interpret the results.
+
+### 1.2.5. Applicability
+MDS is suitable for analyzing dissimilarities or similarities in any type of data, including categorical, ordinal, and continuous data. PCA is suitable for analyzing continuous data that are normally distributed and have linear relationships.
+
+
+## 1.3 Conclusion
+In summary, MDS and PCA are both useful tools for reducing the dimensionality of data. MDS is primarily used for visualizing the similarities and dissimilarities between observations, while PCA is primarily used for identifying the underlying structure of the data by finding the most important variables that explain the most variation in the data. The choice between MDS and PCA depends on the research question, the type of data, and the goals of the analysis.
+
+# 2. Factors to consider when applying sensitivity analysis of MDS results
+
+Sensitivity analysis is an important step in the multidimensional scaling (MDS) process. It involves assessing the robustness of the MDS results to variations in the input data or the parameters of the analysis. 
+
+## 2.1 Factors to consider
+Here are some factors to consider when applying sensitivity analysis of MDS results:
+
+### 2.1.1. Input data
+The input data can have a significant impact on the MDS results. It is important to consider the quality, quantity, and representativeness of the data, as well as any biases or errors in the data. Sensitivity analysis can involve varying the data by adding, removing, or modifying observations or variables to assess the impact on the MDS results.
+
+### 2.1.2. Distance metric
+The choice of distance metric used in the MDS analysis can affect the results. Sensitivity analysis can involve varying the distance metric to assess the impact on the MDS results.
+
+### 2.1.3. Number of dimensions
+The number of dimensions chosen for the MDS analysis can affect the results. Sensitivity analysis can involve varying the number of dimensions to assess the impact on the MDS results.
+
+### 2.1.4. Scaling method
+The choice of scaling method used in the MDS analysis can affect the results. Sensitivity analysis can involve varying the scaling method to assess the impact on the MDS results.
+
+### 2.1.5. Initialization method
+The initialization method used in the MDS analysis can affect the results. Sensitivity analysis can involve varying the initialization method to assess the impact on the MDS results.
+
+### 2.1.6. Robustness analysis
+MDS is susceptible to outliers, and these outliers can have a significant impact on the results. Sensitivity analysis can involve identifying and removing outliers to assess the impact on the MDS results.
+
+### 2.1.7. Model fit
+Model fit is a measure of how well the MDS model fits the data. Sensitivity analysis can involve assessing the model fit by comparing the observed distances to the predicted distances, and varying the model parameters to assess the impact on the model fit.
+
+### 2.1.8. Interpretation
+The interpretation of the MDS results can be influenced by subjective factors, such as the researcher's background, expertise, and expectations. Sensitivity analysis can involve assessing the robustness of the interpretation by varying the interpretation criteria or the perspective of the analysis.
+
+
+##  2.3. Conclusion
+In summary, sensitivity analysis is an important step in the MDS process, and involves assessing the robustness of the results to variations in the input data or the parameters of the analysis. Factors to consider when applying sensitivity analysis of MDS results include the input data, distance metric, number of dimensions, scaling method, initialization method, robustness analysis, model fit, and interpretation.
+
+
+# 3. Factors to consider when applying sensitivity analysis of PCA results 
+Sensitivity analysis is an important step in the principal component analysis (PCA) process. It involves assessing the robustness of the PCA results to variations in the input data or the parameters of the analysis. 
+
+## 3.1 Factors to consider
+Here are some factors to consider when applying sensitivity analysis of PCA results:
+
+### 3.1.1. Input data
+The input data can have a significant impact on the PCA results. It is important to consider the quality, quantity, and representativeness of the data, as well as any biases or errors in the data. Sensitivity analysis can involve varying the data by adding, removing, or modifying observations or variables to assess the impact on the PCA results.
+
+### 3.1.2. Data preprocessing
+The preprocessing steps, such as normalization or scaling, can have an impact on the PCA results. Sensitivity analysis can involve varying the preprocessing steps to assess the impact on the PCA results.
+
+### 3.1.3 Number of components
+The number of principal components chosen for the PCA analysis can affect the results. Sensitivity analysis can involve varying the number of components to assess the impact on the PCA results.
+
+### 3.1.4. Rotation method
+The choice of rotation method used in the PCA analysis can affect the results. Sensitivity analysis can involve varying the rotation method to assess the impact on the PCA results.
+
+### 3.1.5. Outliers
+Outliers can have a significant impact on the PCA results. Sensitivity analysis can involve identifying and removing outliers to assess the impact on the PCA results.
+
+### 3.1.6. Model fit
+Model fit is a measure of how well the PCA model fits the data. Sensitivity analysis can involve assessing the model fit by comparing the observed data to the predicted data, and varying the model parameters to assess the impact on the model fit.
+
+### 3.1.7. Interpretation
+The interpretation of the PCA results can be influenced by subjective factors, such as the researcher's background, expertise, and expectations. Sensitivity analysis can involve assessing the robustness of the interpretation by varying the interpretation criteria or the perspective of the analysis.
+
+### 3.1.8. Dimensionality reduction
+PCA is often used as a dimensionality reduction technique. Sensitivity analysis can involve assessing the impact of the PCA results on downstream analyses that rely on dimensionality reduction, such as clustering or classification.
+
+## 3.2. Conclusion
+In summary, sensitivity analysis is an important step in the PCA process, and involves assessing the robustness of the results to variations in the input data or the parameters of the analysis. Factors to consider when applying sensitivity analysis of PCA results include the input data, data preprocessing, number of components, rotation method, outliers, model fit, interpretation, and dimensionality reduction.
+
+
+# 4. Applications of hierarchical models – what for do we need trees?
+
+Hierarchical models, also known as tree models or tree-based models, have a wide range of applications in various fields. Here are some examples of why we need trees:
+
+### 4.1. Decision making
+Hierarchical models can be used to make decisions by partitioning a set of observations into smaller subsets based on their similarities or differences. This can be useful in fields such as finance, marketing, and healthcare, where decisions need to be made based on complex data.
+
+### 4.2. Classification and prediction
+Hierarchical models can be used for classification and prediction by assigning observations to classes or predicting outcomes based on their position in the tree. This can be useful in fields such as biology, where species can be classified based on their characteristics, or in finance, where stocks can be classified based on their performance.
+
+### 4.3. Cluster analysis
+Hierarchical models can be used for cluster analysis by grouping similar observations together. This can be useful in fields such as genetics, where individuals with similar genotypes can be clustered together, or in social sciences, where individuals with similar characteristics can be grouped together.
+
+### 4.4. Visualization
+Hierarchical models can be used to visualize complex data in a more interpretable way. For example, dendrograms can be used to visualize the relationships between different groups or individuals, making it easier to identify patterns and relationships in the data.
+
+### 4.5. Feature selection
+Hierarchical models can be used for feature selection by identifying the most important variables that contribute to the separation of the observations in the tree. This can be useful in fields such as machine learning, where the goal is to identify the most important features for classification or prediction.
+
+## 4.6 Conclusion
+Overall, hierarchical models are powerful tools for analyzing and visualizing complex data, and can be used in a wide range of applications. By partitioning the data into smaller subsets based on their similarities or differences, hierarchical models can help us make better decisions, classify and predict outcomes, identify patterns and relationships in the data, and select important features for further analysis.
+
+
+# 5. How to compare MDS, PCA and hierarchical trees? 
+
+
+MDS (Multidimensional Scaling), PCA (Principal Component Analysis), and Hierarchical Clustering are all unsupervised learniong methods for analyzing and visualizing high-dimensional data. While they have some similarities, they are fundamentally different techniques, and it is not always appropriate to compare them directly. However, here are some general considerations for comparing these techniques:
+
+### 5.1. Data type
+MDS and PCA are primarily used for analyzing continuous data, while hierarchical clustering can be used for both continuous and categorical data. If the data is categorical, it may not be appropriate to use MDS or PCA, as they are designed to analyze continuous data.
+
+### 5.2. Dimensionality reduction
+MDS and PCA are both dimensionality reduction techniques, meaning they take high-dimensional data and reduce it to a lower-dimensional space for easier visualization and analysis. Hierarchical clustering, on the other hand, does not perform dimensionality reduction, but instead groups data points together based on their similarity. Therefore, the goals and outcomes of the three techniques are different, and cannot be directly compared.
+
+### 5.3. Visualization
+MDS and PCA are both commonly used for data visualization, and produce visual representations of the data in a lower-dimensional space. Hierarchical clustering also produces a visual representation, typically in the form of a dendrogram, which shows the hierarchical relationship between clusters. The visualizations produced by these techniques can be compared in terms of their clarity, interpretability, and ability to reveal underlying patterns in the data.
+
+### 5.4. Distance measure
+MDS and hierarchical clustering both rely on a distance measure to compute the similarity between data points. PCA does not use a distance measure, but instead calculates the eigenvectors and eigenvalues of the data matrix. Therefore, the choice of distance measure can have a significant impact on the results of MDS and hierarchical clustering, but is not relevant for PCA.
+
+### 5.5. Interpretation
+The interpretations of the results produced by these techniques are different. MDS and PCA produce reduced-dimensional representations of the data, which can be used to identify underlying patterns and relationships between variables. Hierarchical clustering produces a tree structure that shows how the data points are related to each other based on their similarity. The interpretation of the results will depend on the specific goals of the analysis and the context of the data.
+
+## 5.6. Conclusion
+In summary, while MDS, PCA, and hierarchical clustering are all methods for analyzing and visualizing high-dimensional data, they have different goals, outcomes, and interpretations, and may not always be directly comparable. When comparing these techniques, it is important to consider the type of data, the goals of the analysis, the choice of distance measure, and the interpretability of the results.
